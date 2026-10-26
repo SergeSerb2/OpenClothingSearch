@@ -1,0 +1,116 @@
+[
+  {
+    "id": "black",
+    "name": "Black",
+    "zh": "黑色",
+    "hex": "#000000"
+  },
+  {
+    "id": "white",
+    "name": "White",
+    "zh": "白色",
+    "hex": "#FFFFFF"
+  },
+  {
+    "id": "off-white",
+    "name": "Off-white / Cream",
+    "zh": "米白色",
+    "hex": "#F5F0E6"
+  },
+  {
+    "id": "grey",
+    "name": "Grey",
+    "zh": "灰色",
+    "hex": "#808080"
+  },
+  {
+    "id": "charcoal",
+    "name": "Charcoal",
+    "zh": "炭灰色",
+    "hex": "#36454F"
+  },
+  {
+    "id": "navy",
+    "name": "Navy",
+    "zh": "藏青色",
+    "hex": "#1B2A49"
+  },
+  {
+    "id": "blue",
+    "name": "Blue",
+    "zh": "蓝色",
+    "hex": "#2563EB"
+  },
+  {
+    "id": "light-blue",
+    "name": "Light blue",
+    "zh": "浅蓝色",
+    "hex": "#A9CCE3"
+  },
+  {
+    "id": "green",
+    "name": "Green",
+    "zh": "绿色",
+    "hex": "#228B22"
+  },
+  {
+    "id": "olive",
+    "name": "Olive",
+    "zh": "军绿色",
+    "hex": "#6B7040"
+  },
+  {
+    "id": "khaki",
+    "name": "Khaki / Beige",
+    "zh": "卡其色",
+    "hex": "#C3B091"
+  },
+  {
+    "id": "brown",
+    "name": "Brown",
+    "zh": "棕色",
+    "hex": "#8B5E3C"
+  },
+  {
+    "id": "red",
+    "name": "Red",
+    "zh": "红色",
+    "hex": "#D72638"
+  },
+  {
+    "id": "burgundy",
+    "name": "Burgundy",
+    "zh": "酒红色",
+    "hex": "#800020"
+  },
+  {
+    "id": "pink",
+    "name": "Pink",
+    "zh": "粉色",
+    "hex": "#F4A7B9"
+  },
+  {
+    "id": "purple",
+    "name": "Purple",
+    "zh": "紫色",
+    "hex": "#8055A6"
+  },
+  {
+    "id": "yellow",
+    "name": "Yellow",
+    "zh": "黄色",
+    "hex": "#F5C542"
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "zh": "橙色",
+    "hex": "#F27C28"
+  },
+  {
+    "id": "multicolor",
+    "name": "Multicolor",
+    "zh": "多色",
+    "hex": "#888888"
+  }
+]

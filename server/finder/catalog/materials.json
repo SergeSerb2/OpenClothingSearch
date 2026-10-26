@@ -1,0 +1,97 @@
+[
+  {
+    "id": "cotton",
+    "name": "Cotton",
+    "zh": "纯棉"
+  },
+  {
+    "id": "heavyweight-cotton",
+    "name": "Heavyweight cotton",
+    "zh": "重磅纯棉"
+  },
+  {
+    "id": "linen",
+    "name": "Linen",
+    "zh": "亚麻"
+  },
+  {
+    "id": "wool",
+    "name": "Wool",
+    "zh": "羊毛"
+  },
+  {
+    "id": "cashmere",
+    "name": "Cashmere",
+    "zh": "羊绒"
+  },
+  {
+    "id": "merino",
+    "name": "Merino wool",
+    "zh": "美利奴羊毛"
+  },
+  {
+    "id": "fleece",
+    "name": "Fleece",
+    "zh": "摇粒绒"
+  },
+  {
+    "id": "down",
+    "name": "Down",
+    "zh": "羽绒"
+  },
+  {
+    "id": "nylon",
+    "name": "Nylon",
+    "zh": "尼龙"
+  },
+  {
+    "id": "gore-tex",
+    "name": "GORE-TEX / Waterproof shell",
+    "zh": "GORE-TEX"
+  },
+  {
+    "id": "polyester",
+    "name": "Polyester / Technical fabric",
+    "zh": "聚酯纤维"
+  },
+  {
+    "id": "denim",
+    "name": "Denim",
+    "zh": "牛仔布"
+  },
+  {
+    "id": "selvedge-denim",
+    "name": "Selvedge denim",
+    "zh": "赤耳牛仔布"
+  },
+  {
+    "id": "corduroy",
+    "name": "Corduroy",
+    "zh": "灯芯绒"
+  },
+  {
+    "id": "leather",
+    "name": "Leather",
+    "zh": "真皮"
+  },
+  {
+    "id": "suede",
+    "name": "Suede",
+    "zh": "反绒皮"
+  },
+  {
+    "id": "canvas",
+    "name": "Canvas",
+    "zh": "帆布"
+  },
+  {
+    "id": "knit",
+    "name": "Knit",
+    "zh": "针织"
+  },
+  {
+    "id": "silk",
+    "name": "Silk",
+    "zh": "真丝"
+  }
+]

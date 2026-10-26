@@ -1,0 +1,3872 @@
+[
+  {
+    "id": "nike",
+    "name": "Nike",
+    "zh": [
+      "耐克",
+      "NIKE",
+      "NIKE耐克"
+    ],
+    "aliases": [
+      "nike",
+      "nike sportswear",
+      "nike acg"
+    ],
+    "tags": [
+      "sportswear",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweatpants",
+      "shorts",
+      "track-pants",
+      "sneakers",
+      "cap",
+      "socks",
+      "backpack"
+    ]
+  },
+  {
+    "id": "jordan",
+    "name": "Jordan",
+    "zh": [
+      "AIR JORDAN",
+      "耐克乔丹",
+      "乔丹",
+      "JORDAN"
+    ],
+    "aliases": [
+      "jordan",
+      "air jordan",
+      "aj",
+      "jumpman"
+    ],
+    "tags": [
+      "sportswear",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shorts",
+      "sweatpants",
+      "track-pants",
+      "sneakers",
+      "cap"
+    ]
+  },
+  {
+    "id": "adidas",
+    "name": "Adidas",
+    "zh": [
+      "阿迪达斯",
+      "adidas",
+      "阿迪",
+      "三叶草"
+    ],
+    "aliases": [
+      "adidas",
+      "adidas originals",
+      "adi"
+    ],
+    "tags": [
+      "sportswear",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "track-pants",
+      "shorts",
+      "sneakers",
+      "sandals",
+      "socks",
+      "backpack",
+      "cap"
+    ]
+  },
+  {
+    "id": "new-balance",
+    "name": "New Balance",
+    "zh": [
+      "New Balance",
+      "NB",
+      "新百伦"
+    ],
+    "aliases": [
+      "new balance",
+      "newbalance",
+      "nb"
+    ],
+    "tags": [
+      "sportswear",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "sweatshirt",
+      "hoodie",
+      "sweatpants",
+      "shorts",
+      "cap",
+      "socks"
+    ]
+  },
+  {
+    "id": "asics",
+    "name": "Asics",
+    "zh": [
+      "亚瑟士",
+      "ASICS"
+    ],
+    "aliases": [
+      "asics",
+      "asics sportstyle"
+    ],
+    "tags": [
+      "sportswear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "shorts",
+      "track-pants",
+      "socks",
+      "cap"
+    ]
+  },
+  {
+    "id": "puma",
+    "name": "Puma",
+    "zh": [
+      "彪马",
+      "PUMA"
+    ],
+    "aliases": [
+      "puma"
+    ],
+    "tags": [
+      "sportswear",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shorts",
+      "sweatpants",
+      "track-pants",
+      "cap",
+      "socks"
+    ]
+  },
+  {
+    "id": "converse",
+    "name": "Converse",
+    "zh": [
+      "匡威",
+      "CONVERSE"
+    ],
+    "aliases": [
+      "converse",
+      "chuck taylor",
+      "all star"
+    ],
+    "tags": [
+      "streetwear",
+      "skate",
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shorts",
+      "cap",
+      "backpack"
+    ]
+  },
+  {
+    "id": "vans",
+    "name": "Vans",
+    "zh": [
+      "VANS",
+      "范斯",
+      "万斯"
+    ],
+    "aliases": [
+      "vans",
+      "vans off the wall"
+    ],
+    "tags": [
+      "skate",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "hoodie",
+      "shirt",
+      "shorts",
+      "cap",
+      "socks",
+      "backpack"
+    ]
+  },
+  {
+    "id": "salomon",
+    "name": "Salomon",
+    "zh": [
+      "萨洛蒙",
+      "SALOMON"
+    ],
+    "aliases": [
+      "salomon"
+    ],
+    "tags": [
+      "outdoor",
+      "sportswear",
+      "techwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "boots",
+      "shell-jacket",
+      "windbreaker",
+      "t-shirt",
+      "shorts",
+      "track-pants",
+      "backpack",
+      "cap"
+    ]
+  },
+  {
+    "id": "hoka",
+    "name": "Hoka",
+    "zh": [
+      "HOKA",
+      "霍伽",
+      "HOKA ONE ONE"
+    ],
+    "aliases": [
+      "hoka",
+      "hoka one one",
+      "hokaoneone"
+    ],
+    "tags": [
+      "sportswear",
+      "outdoor"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "sandals",
+      "t-shirt",
+      "shorts",
+      "socks",
+      "cap"
+    ]
+  },
+  {
+    "id": "on",
+    "name": "On",
+    "zh": [
+      "昂跑",
+      "On",
+      "On昂跑"
+    ],
+    "aliases": [
+      "on",
+      "on running",
+      "onrunning"
+    ],
+    "tags": [
+      "sportswear",
+      "outdoor"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "shorts",
+      "track-pants",
+      "windbreaker",
+      "cap",
+      "socks"
+    ]
+  },
+  {
+    "id": "arcteryx",
+    "name": "Arc'teryx",
+    "zh": [
+      "始祖鸟",
+      "ARC'TERYX",
+      "ARCTERYX"
+    ],
+    "aliases": [
+      "arcteryx",
+      "arc teryx",
+      "arc'teryx",
+      "arcteryx veilance",
+      "veilance"
+    ],
+    "tags": [
+      "outdoor",
+      "techwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shell-jacket",
+      "windbreaker",
+      "puffer-jacket",
+      "fleece",
+      "vest",
+      "trousers",
+      "cargo-pants",
+      "backpack",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "the-north-face",
+    "name": "The North Face",
+    "zh": [
+      "北面",
+      "THE NORTH FACE",
+      "TNF",
+      "乐斯菲斯"
+    ],
+    "aliases": [
+      "the north face",
+      "north face",
+      "tnf",
+      "the north face purple label"
+    ],
+    "tags": [
+      "outdoor",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "shell-jacket",
+      "puffer-jacket",
+      "fleece",
+      "windbreaker",
+      "vest",
+      "hoodie",
+      "trousers",
+      "backpack",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "patagonia",
+    "name": "Patagonia",
+    "zh": [
+      "巴塔哥尼亚",
+      "PATAGONIA",
+      "巴塔"
+    ],
+    "aliases": [
+      "patagonia",
+      "pata"
+    ],
+    "tags": [
+      "outdoor"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "fleece",
+      "shell-jacket",
+      "puffer-jacket",
+      "vest",
+      "t-shirt",
+      "shorts",
+      "trousers",
+      "backpack",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "columbia",
+    "name": "Columbia",
+    "zh": [
+      "哥伦比亚",
+      "Columbia"
+    ],
+    "aliases": [
+      "columbia",
+      "columbia sportswear"
+    ],
+    "tags": [
+      "outdoor"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "shell-jacket",
+      "fleece",
+      "puffer-jacket",
+      "windbreaker",
+      "shirt",
+      "trousers",
+      "shorts",
+      "boots",
+      "backpack",
+      "cap"
+    ]
+  },
+  {
+    "id": "mammut",
+    "name": "Mammut",
+    "zh": [
+      "猛犸象",
+      "MAMMUT"
+    ],
+    "aliases": [
+      "mammut"
+    ],
+    "tags": [
+      "outdoor",
+      "techwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shell-jacket",
+      "puffer-jacket",
+      "fleece",
+      "windbreaker",
+      "trousers",
+      "shorts",
+      "boots",
+      "backpack",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "mountain-hardwear",
+    "name": "Mountain Hardwear",
+    "zh": [
+      "山浩",
+      "MOUNTAIN HARDWEAR",
+      "MHW"
+    ],
+    "aliases": [
+      "mountain hardwear",
+      "mountainhardwear",
+      "mhw"
+    ],
+    "tags": [
+      "outdoor"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shell-jacket",
+      "puffer-jacket",
+      "fleece",
+      "windbreaker",
+      "vest",
+      "trousers",
+      "shorts",
+      "backpack",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "kailas",
+    "name": "Kailas",
+    "zh": [
+      "凯乐石",
+      "KAILAS"
+    ],
+    "aliases": [
+      "kailas"
+    ],
+    "tags": [
+      "outdoor",
+      "chinese"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "shell-jacket",
+      "puffer-jacket",
+      "fleece",
+      "windbreaker",
+      "t-shirt",
+      "trousers",
+      "shorts",
+      "sneakers",
+      "backpack",
+      "cap"
+    ]
+  },
+  {
+    "id": "snow-peak",
+    "name": "Snow Peak",
+    "zh": [
+      "雪峰",
+      "Snow Peak"
+    ],
+    "aliases": [
+      "snow peak",
+      "snowpeak"
+    ],
+    "tags": [
+      "outdoor",
+      "japanese"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "jacket",
+      "vest",
+      "shirt",
+      "t-shirt",
+      "fleece",
+      "trousers",
+      "shorts",
+      "cap",
+      "crossbody-bag",
+      "tote"
+    ]
+  },
+  {
+    "id": "montbell",
+    "name": "Montbell",
+    "zh": [
+      "mont-bell",
+      "montbell"
+    ],
+    "aliases": [
+      "montbell",
+      "mont-bell",
+      "mont bell"
+    ],
+    "tags": [
+      "outdoor",
+      "japanese"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "shell-jacket",
+      "puffer-jacket",
+      "fleece",
+      "windbreaker",
+      "vest",
+      "trousers",
+      "shorts",
+      "backpack",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "outdoor-research",
+    "name": "Outdoor Research",
+    "zh": [
+      "Outdoor Research",
+      "OR"
+    ],
+    "aliases": [
+      "outdoor research",
+      "outdoorresearch",
+      "or"
+    ],
+    "tags": [
+      "outdoor",
+      "techwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "shell-jacket",
+      "windbreaker",
+      "puffer-jacket",
+      "fleece",
+      "trousers",
+      "shorts",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "decathlon",
+    "name": "Decathlon",
+    "zh": [
+      "迪卡侬",
+      "DECATHLON"
+    ],
+    "aliases": [
+      "decathlon",
+      "quechua",
+      "forclaz"
+    ],
+    "tags": [
+      "outdoor",
+      "sportswear"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "shell-jacket",
+      "fleece",
+      "puffer-jacket",
+      "windbreaker",
+      "t-shirt",
+      "shorts",
+      "trousers",
+      "sneakers",
+      "boots",
+      "backpack"
+    ]
+  },
+  {
+    "id": "and-wander",
+    "name": "And Wander",
+    "zh": [
+      "and wander"
+    ],
+    "aliases": [
+      "and wander",
+      "andwander"
+    ],
+    "tags": [
+      "outdoor",
+      "japanese",
+      "techwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shell-jacket",
+      "fleece",
+      "vest",
+      "shirt",
+      "trousers",
+      "cargo-pants",
+      "shorts",
+      "backpack",
+      "cap",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "nanamica",
+    "name": "Nanamica",
+    "zh": [
+      "nanamica"
+    ],
+    "aliases": [
+      "nanamica"
+    ],
+    "tags": [
+      "japanese",
+      "outdoor",
+      "basics"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "jacket",
+      "shell-jacket",
+      "coat",
+      "shirt",
+      "t-shirt",
+      "trousers",
+      "shorts",
+      "cap",
+      "backpack",
+      "tote"
+    ]
+  },
+  {
+    "id": "acronym",
+    "name": "Acronym",
+    "zh": [
+      "ACRONYM",
+      "ACR"
+    ],
+    "aliases": [
+      "acronym",
+      "acr"
+    ],
+    "tags": [
+      "techwear",
+      "designer"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shell-jacket",
+      "jacket",
+      "vest",
+      "cargo-pants",
+      "trousers",
+      "shorts",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "supreme",
+    "name": "Supreme",
+    "zh": [
+      "Supreme"
+    ],
+    "aliases": [
+      "supreme",
+      "sup"
+    ],
+    "tags": [
+      "streetwear",
+      "skate"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "varsity-jacket",
+      "jeans",
+      "cargo-pants",
+      "cap",
+      "beanie",
+      "backpack"
+    ]
+  },
+  {
+    "id": "stussy",
+    "name": "Stussy",
+    "zh": [
+      "STUSSY",
+      "斯图西"
+    ],
+    "aliases": [
+      "stussy",
+      "stüssy"
+    ],
+    "tags": [
+      "streetwear",
+      "skate"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "jacket",
+      "shorts",
+      "trousers",
+      "cap",
+      "beanie",
+      "tote"
+    ]
+  },
+  {
+    "id": "palace",
+    "name": "Palace",
+    "zh": [
+      "PALACE"
+    ],
+    "aliases": [
+      "palace",
+      "palace skateboards"
+    ],
+    "tags": [
+      "streetwear",
+      "skate"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "track-pants",
+      "shorts",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "bape",
+    "name": "A Bathing Ape",
+    "zh": [
+      "BAPE",
+      "安逸猿",
+      "猿人头",
+      "A BATHING APE"
+    ],
+    "aliases": [
+      "bape",
+      "a bathing ape",
+      "bathing ape"
+    ],
+    "tags": [
+      "streetwear",
+      "japanese"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "puffer-jacket",
+      "sweatpants",
+      "shorts",
+      "sneakers",
+      "cap"
+    ]
+  },
+  {
+    "id": "fear-of-god",
+    "name": "Fear of God",
+    "zh": [
+      "Fear of God",
+      "FOG",
+      "敬畏上帝"
+    ],
+    "aliases": [
+      "fear of god",
+      "fearofgod",
+      "fog"
+    ],
+    "tags": [
+      "streetwear",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "coat",
+      "blazer",
+      "trousers",
+      "jeans",
+      "sneakers"
+    ]
+  },
+  {
+    "id": "fear-of-god-essentials",
+    "name": "Fear of God Essentials",
+    "zh": [
+      "ESSENTIALS",
+      "FOG",
+      "FOG ESSENTIALS"
+    ],
+    "aliases": [
+      "essentials",
+      "fog essentials",
+      "fear of god essentials",
+      "fearofgod essentials"
+    ],
+    "tags": [
+      "streetwear",
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "hoodie",
+      "sweatshirt",
+      "sweatpants",
+      "shorts",
+      "track-pants",
+      "cap",
+      "socks"
+    ]
+  },
+  {
+    "id": "represent",
+    "name": "Represent",
+    "zh": [
+      "REPRESENT"
+    ],
+    "aliases": [
+      "represent",
+      "represent clo",
+      "representclo"
+    ],
+    "tags": [
+      "streetwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "jeans",
+      "cargo-pants",
+      "sweatpants",
+      "shorts",
+      "sneakers"
+    ]
+  },
+  {
+    "id": "corteiz",
+    "name": "Corteiz",
+    "zh": [
+      "CORTEIZ",
+      "CRTZ"
+    ],
+    "aliases": [
+      "corteiz",
+      "crtz",
+      "crtz rtw"
+    ],
+    "tags": [
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "jacket",
+      "cargo-pants",
+      "track-pants",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "kith",
+    "name": "Kith",
+    "zh": [
+      "KITH"
+    ],
+    "aliases": [
+      "kith",
+      "kith nyc"
+    ],
+    "tags": [
+      "streetwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "jacket",
+      "shorts",
+      "trousers",
+      "cap",
+      "sneakers"
+    ]
+  },
+  {
+    "id": "aime-leon-dore",
+    "name": "Aimé Leon Dore",
+    "zh": [
+      "AIME LEON DORE",
+      "ALD",
+      "Aimé Leon Dore"
+    ],
+    "aliases": [
+      "aime leon dore",
+      "aimé leon dore",
+      "aimeleondore",
+      "ald"
+    ],
+    "tags": [
+      "streetwear",
+      "basics"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "sweatshirt",
+      "hoodie",
+      "shirt",
+      "polo",
+      "cardigan",
+      "jacket",
+      "trousers",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "carhartt-wip",
+    "name": "Carhartt WIP",
+    "zh": [
+      "Carhartt WIP",
+      "卡哈特WIP",
+      "CARHARTT WIP卡哈特"
+    ],
+    "aliases": [
+      "carhartt wip",
+      "carharttwip",
+      "wip",
+      "carhartt work in progress"
+    ],
+    "tags": [
+      "workwear",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "work-jacket",
+      "jacket",
+      "t-shirt",
+      "hoodie",
+      "shirt",
+      "jeans",
+      "cargo-pants",
+      "trousers",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "off-white",
+    "name": "Off-White",
+    "zh": [
+      "OFF-WHITE",
+      "OW",
+      "Off White"
+    ],
+    "aliases": [
+      "off-white",
+      "off white",
+      "offwhite",
+      "ow"
+    ],
+    "tags": [
+      "streetwear",
+      "designer",
+      "luxury"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "jeans",
+      "cargo-pants",
+      "sneakers",
+      "belt",
+      "crossbody-bag",
+      "cap"
+    ]
+  },
+  {
+    "id": "chrome-hearts",
+    "name": "Chrome Hearts",
+    "zh": [
+      "克罗心",
+      "CHROME HEARTS",
+      "CH"
+    ],
+    "aliases": [
+      "chrome hearts",
+      "chromehearts",
+      "ch"
+    ],
+    "tags": [
+      "luxury",
+      "streetwear"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "jeans",
+      "jacket",
+      "belt",
+      "cap",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": "gallery-dept",
+    "name": "Gallery Dept.",
+    "zh": [
+      "GALLERY DEPT",
+      "Gallery Dept."
+    ],
+    "aliases": [
+      "gallery dept",
+      "gallery dept.",
+      "gallerydept"
+    ],
+    "tags": [
+      "streetwear",
+      "designer",
+      "denim"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jeans",
+      "trousers",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "rhude",
+    "name": "Rhude",
+    "zh": [
+      "RHUDE"
+    ],
+    "aliases": [
+      "rhude"
+    ],
+    "tags": [
+      "streetwear",
+      "designer"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "jacket",
+      "shorts",
+      "track-pants",
+      "cap"
+    ]
+  },
+  {
+    "id": "human-made",
+    "name": "Human Made",
+    "zh": [
+      "HUMAN MADE"
+    ],
+    "aliases": [
+      "human made",
+      "humanmade"
+    ],
+    "tags": [
+      "streetwear",
+      "japanese"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "varsity-jacket",
+      "work-jacket",
+      "jeans",
+      "shorts",
+      "cap",
+      "tote"
+    ]
+  },
+  {
+    "id": "noah",
+    "name": "Noah",
+    "zh": [
+      "NOAH",
+      "NOAH NYC"
+    ],
+    "aliases": [
+      "noah",
+      "noah nyc",
+      "noahnyc"
+    ],
+    "tags": [
+      "streetwear",
+      "skate"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "sweater",
+      "trousers",
+      "shorts",
+      "cap",
+      "beanie",
+      "tote"
+    ]
+  },
+  {
+    "id": "sp5der",
+    "name": "Sp5der",
+    "zh": [
+      "SP5DER",
+      "SP5DER蜘蛛"
+    ],
+    "aliases": [
+      "sp5der",
+      "spider worldwide",
+      "sp5der worldwide"
+    ],
+    "tags": [
+      "streetwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweatpants",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "trapstar",
+    "name": "Trapstar",
+    "zh": [
+      "TRAPSTAR"
+    ],
+    "aliases": [
+      "trapstar",
+      "trapstar london"
+    ],
+    "tags": [
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "puffer-jacket",
+      "jacket",
+      "sweatpants",
+      "track-pants",
+      "crossbody-bag",
+      "cap"
+    ]
+  },
+  {
+    "id": "broken-planet",
+    "name": "Broken Planet",
+    "zh": [
+      "BROKEN PLANET",
+      "BROKEN PLANET MARKET"
+    ],
+    "aliases": [
+      "broken planet",
+      "broken planet market",
+      "brokenplanet",
+      "bpm"
+    ],
+    "tags": [
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweatpants",
+      "shorts",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "hellstar",
+    "name": "Hellstar",
+    "zh": [
+      "HELLSTAR"
+    ],
+    "aliases": [
+      "hellstar",
+      "hellstar studios"
+    ],
+    "tags": [
+      "streetwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweatpants",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "prada",
+    "name": "Prada",
+    "zh": [
+      "普拉达",
+      "PRADA"
+    ],
+    "aliases": [
+      "prada"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "jacket",
+      "blazer",
+      "coat",
+      "trousers",
+      "skirt",
+      "sneakers",
+      "loafers",
+      "backpack",
+      "crossbody-bag",
+      "tote",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": "miu-miu",
+    "name": "Miu Miu",
+    "zh": [
+      "缪缪",
+      "MIU MIU"
+    ],
+    "aliases": [
+      "miu miu",
+      "miumiu"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "polo",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "skirt",
+      "jeans",
+      "loafers",
+      "crossbody-bag",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": "gucci",
+    "name": "Gucci",
+    "zh": [
+      "古驰",
+      "GUCCI"
+    ],
+    "aliases": [
+      "gucci"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "trousers",
+      "sneakers",
+      "loafers",
+      "crossbody-bag",
+      "belt",
+      "scarf",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": "louis-vuitton",
+    "name": "Louis Vuitton",
+    "zh": [
+      "路易威登",
+      "LV",
+      "LOUIS VUITTON"
+    ],
+    "aliases": [
+      "louis vuitton",
+      "louisvuitton",
+      "lv"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "shirt",
+      "jacket",
+      "coat",
+      "jeans",
+      "trousers",
+      "sneakers",
+      "backpack",
+      "crossbody-bag",
+      "tote",
+      "belt",
+      "scarf"
+    ]
+  },
+  {
+    "id": "balenciaga",
+    "name": "Balenciaga",
+    "zh": [
+      "巴黎世家",
+      "BALENCIAGA"
+    ],
+    "aliases": [
+      "balenciaga"
+    ],
+    "tags": [
+      "luxury",
+      "designer",
+      "streetwear"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "jacket",
+      "bomber",
+      "jeans",
+      "cargo-pants",
+      "sneakers",
+      "boots",
+      "crossbody-bag",
+      "cap",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": "dior",
+    "name": "Dior",
+    "zh": [
+      "迪奥",
+      "DIOR"
+    ],
+    "aliases": [
+      "dior",
+      "christian dior",
+      "dior homme"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "sweater",
+      "jacket",
+      "blazer",
+      "coat",
+      "trousers",
+      "skirt",
+      "sneakers",
+      "loafers",
+      "crossbody-bag",
+      "tote",
+      "belt"
+    ]
+  },
+  {
+    "id": "bottega-veneta",
+    "name": "Bottega Veneta",
+    "zh": [
+      "葆蝶家",
+      "BV",
+      "BOTTEGA VENETA"
+    ],
+    "aliases": [
+      "bottega veneta",
+      "bottegaveneta",
+      "bv"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "sweater",
+      "jacket",
+      "coat",
+      "blazer",
+      "trousers",
+      "jeans",
+      "boots",
+      "loafers",
+      "crossbody-bag",
+      "tote",
+      "belt"
+    ]
+  },
+  {
+    "id": "loewe",
+    "name": "Loewe",
+    "zh": [
+      "罗意威",
+      "LOEWE"
+    ],
+    "aliases": [
+      "loewe"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "trousers",
+      "jeans",
+      "sneakers",
+      "crossbody-bag",
+      "tote",
+      "scarf"
+    ]
+  },
+  {
+    "id": "moncler",
+    "name": "Moncler",
+    "zh": [
+      "蒙口",
+      "盟可睐",
+      "MONCLER"
+    ],
+    "aliases": [
+      "moncler"
+    ],
+    "tags": [
+      "luxury",
+      "outdoor"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "puffer-jacket",
+      "vest",
+      "shell-jacket",
+      "windbreaker",
+      "hoodie",
+      "t-shirt",
+      "polo",
+      "track-pants",
+      "beanie",
+      "scarf"
+    ]
+  },
+  {
+    "id": "canada-goose",
+    "name": "Canada Goose",
+    "zh": [
+      "加拿大鹅",
+      "CANADA GOOSE",
+      "大鹅"
+    ],
+    "aliases": [
+      "canada goose",
+      "canadagoose",
+      "cg"
+    ],
+    "tags": [
+      "outdoor",
+      "luxury"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "puffer-jacket",
+      "vest",
+      "jacket",
+      "shell-jacket",
+      "windbreaker",
+      "fleece",
+      "beanie",
+      "scarf"
+    ]
+  },
+  {
+    "id": "burberry",
+    "name": "Burberry",
+    "zh": [
+      "博柏利",
+      "巴宝莉",
+      "BURBERRY"
+    ],
+    "aliases": [
+      "burberry",
+      "burberrys"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "coat",
+      "jacket",
+      "shirt",
+      "polo",
+      "sweater",
+      "cardigan",
+      "trousers",
+      "skirt",
+      "crossbody-bag",
+      "scarf",
+      "cap"
+    ]
+  },
+  {
+    "id": "celine",
+    "name": "Celine",
+    "zh": [
+      "CELINE",
+      "思琳",
+      "赛琳"
+    ],
+    "aliases": [
+      "celine",
+      "céline"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "jeans",
+      "sneakers",
+      "loafers",
+      "crossbody-bag",
+      "belt",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": "saint-laurent",
+    "name": "Saint Laurent",
+    "zh": [
+      "圣罗兰",
+      "SAINT LAURENT",
+      "YSL"
+    ],
+    "aliases": [
+      "saint laurent",
+      "ysl",
+      "yves saint laurent",
+      "saint laurent paris",
+      "slp"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "jacket",
+      "blazer",
+      "coat",
+      "jeans",
+      "trousers",
+      "boots",
+      "loafers",
+      "crossbody-bag",
+      "belt",
+      "sunglasses"
+    ]
+  },
+  {
+    "id": "maison-margiela",
+    "name": "Maison Margiela",
+    "zh": [
+      "马吉拉",
+      "梅森马吉拉",
+      "Maison Margiela",
+      "MM6"
+    ],
+    "aliases": [
+      "maison margiela",
+      "margiela",
+      "maison martin margiela",
+      "mm6",
+      "mmm"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "jeans",
+      "trousers",
+      "sneakers",
+      "boots",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "rick-owens",
+    "name": "Rick Owens",
+    "zh": [
+      "Rick Owens",
+      "瑞克欧文斯",
+      "RO"
+    ],
+    "aliases": [
+      "rick owens",
+      "rickowens",
+      "ro",
+      "drkshdw",
+      "rick owens drkshdw"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "tank-top",
+      "hoodie",
+      "jacket",
+      "coat",
+      "trousers",
+      "cargo-pants",
+      "shorts",
+      "sneakers",
+      "boots"
+    ]
+  },
+  {
+    "id": "acne-studios",
+    "name": "Acne Studios",
+    "zh": [
+      "Acne Studios",
+      "ACNE",
+      "艾克妮"
+    ],
+    "aliases": [
+      "acne studios",
+      "acne",
+      "acnestudios"
+    ],
+    "tags": [
+      "designer",
+      "denim"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "sweatshirt",
+      "hoodie",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "jeans",
+      "trousers",
+      "scarf",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "ami-paris",
+    "name": "Ami Paris",
+    "zh": [
+      "AMI",
+      "AMI PARIS"
+    ],
+    "aliases": [
+      "ami",
+      "ami paris",
+      "amiparis",
+      "ami alexandre mattiussi"
+    ],
+    "tags": [
+      "designer",
+      "basics"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "polo",
+      "shirt",
+      "sweatshirt",
+      "hoodie",
+      "sweater",
+      "cardigan",
+      "coat",
+      "blazer",
+      "trousers",
+      "cap",
+      "scarf"
+    ]
+  },
+  {
+    "id": "maison-kitsune",
+    "name": "Maison Kitsuné",
+    "zh": [
+      "小狐狸",
+      "Maison Kitsune",
+      "Maison Kitsuné"
+    ],
+    "aliases": [
+      "maison kitsune",
+      "maison kitsuné",
+      "kitsune",
+      "kitsuné"
+    ],
+    "tags": [
+      "designer",
+      "japanese",
+      "basics"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "polo",
+      "shirt",
+      "sweatshirt",
+      "hoodie",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "cap",
+      "tote"
+    ]
+  },
+  {
+    "id": "stone-island",
+    "name": "Stone Island",
+    "zh": [
+      "石头岛",
+      "STONE ISLAND"
+    ],
+    "aliases": [
+      "stone island",
+      "stoneisland",
+      "stoney"
+    ],
+    "tags": [
+      "streetwear",
+      "designer",
+      "techwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "jacket",
+      "shell-jacket",
+      "puffer-jacket",
+      "sweater",
+      "sweatshirt",
+      "hoodie",
+      "t-shirt",
+      "cargo-pants",
+      "shorts",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "cp-company",
+    "name": "C.P. Company",
+    "zh": [
+      "C.P. COMPANY",
+      "CP COMPANY"
+    ],
+    "aliases": [
+      "cp company",
+      "c.p. company",
+      "cpcompany",
+      "c p company"
+    ],
+    "tags": [
+      "techwear",
+      "streetwear",
+      "designer"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "jacket",
+      "shell-jacket",
+      "puffer-jacket",
+      "vest",
+      "hoodie",
+      "sweatshirt",
+      "cargo-pants",
+      "cap",
+      "beanie",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "polo-ralph-lauren",
+    "name": "Polo Ralph Lauren",
+    "zh": [
+      "POLO RALPH LAUREN",
+      "拉夫劳伦POLO",
+      "POLO"
+    ],
+    "aliases": [
+      "polo ralph lauren",
+      "polo",
+      "prl",
+      "polo rl"
+    ],
+    "tags": [
+      "designer",
+      "basics"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "polo",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "sweatshirt",
+      "jacket",
+      "blazer",
+      "trousers",
+      "shorts",
+      "cap",
+      "belt",
+      "socks"
+    ]
+  },
+  {
+    "id": "lacoste",
+    "name": "Lacoste",
+    "zh": [
+      "拉科斯特",
+      "LACOSTE",
+      "法国鳄鱼"
+    ],
+    "aliases": [
+      "lacoste"
+    ],
+    "tags": [
+      "sportswear",
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "polo",
+      "t-shirt",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "sweatshirt",
+      "jacket",
+      "trousers",
+      "shorts",
+      "sneakers",
+      "cap"
+    ]
+  },
+  {
+    "id": "thom-browne",
+    "name": "Thom Browne",
+    "zh": [
+      "汤姆布朗",
+      "THOM BROWNE",
+      "TB"
+    ],
+    "aliases": [
+      "thom browne",
+      "thombrowne",
+      "tb"
+    ],
+    "tags": [
+      "luxury",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "sweater",
+      "cardigan",
+      "sweatshirt",
+      "blazer",
+      "coat",
+      "trousers",
+      "skirt",
+      "shorts",
+      "loafers",
+      "socks"
+    ]
+  },
+  {
+    "id": "jacquemus",
+    "name": "Jacquemus",
+    "zh": [
+      "JACQUEMUS"
+    ],
+    "aliases": [
+      "jacquemus"
+    ],
+    "tags": [
+      "designer",
+      "luxury"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "trousers",
+      "skirt",
+      "crossbody-bag",
+      "tote",
+      "cap"
+    ]
+  },
+  {
+    "id": "our-legacy",
+    "name": "Our Legacy",
+    "zh": [
+      "OUR LEGACY",
+      "OL"
+    ],
+    "aliases": [
+      "our legacy",
+      "ourlegacy",
+      "ol"
+    ],
+    "tags": [
+      "designer",
+      "denim"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "jeans",
+      "trousers",
+      "boots",
+      "loafers",
+      "belt"
+    ]
+  },
+  {
+    "id": "lemaire",
+    "name": "Lemaire",
+    "zh": [
+      "LEMAIRE"
+    ],
+    "aliases": [
+      "lemaire",
+      "christophe lemaire"
+    ],
+    "tags": [
+      "designer",
+      "luxury"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweater",
+      "cardigan",
+      "coat",
+      "jacket",
+      "blazer",
+      "trousers",
+      "jeans",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "loro-piana",
+    "name": "Loro Piana",
+    "zh": [
+      "Loro Piana",
+      "诺悠翩雅",
+      "LP"
+    ],
+    "aliases": [
+      "loro piana",
+      "loropiana",
+      "lp"
+    ],
+    "tags": [
+      "luxury",
+      "basics"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "polo",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "coat",
+      "jacket",
+      "blazer",
+      "trousers",
+      "loafers",
+      "scarf",
+      "cap"
+    ]
+  },
+  {
+    "id": "brunello-cucinelli",
+    "name": "Brunello Cucinelli",
+    "zh": [
+      "Brunello Cucinelli",
+      "BC"
+    ],
+    "aliases": [
+      "brunello cucinelli",
+      "brunellocucinelli",
+      "cucinelli",
+      "bc"
+    ],
+    "tags": [
+      "luxury",
+      "basics"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "polo",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "coat",
+      "blazer",
+      "jacket",
+      "trousers",
+      "jeans",
+      "loafers",
+      "scarf"
+    ]
+  },
+  {
+    "id": "uniqlo",
+    "name": "Uniqlo",
+    "zh": [
+      "优衣库",
+      "UNIQLO"
+    ],
+    "aliases": [
+      "uniqlo",
+      "uniqlo u",
+      "uniqlo c"
+    ],
+    "tags": [
+      "basics",
+      "japanese"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "shirt",
+      "polo",
+      "hoodie",
+      "sweatshirt",
+      "sweater",
+      "cardigan",
+      "vest",
+      "tank-top",
+      "puffer-jacket",
+      "fleece",
+      "trousers",
+      "jeans",
+      "shorts",
+      "skirt",
+      "socks"
+    ]
+  },
+  {
+    "id": "muji",
+    "name": "Muji",
+    "zh": [
+      "无印良品",
+      "MUJI"
+    ],
+    "aliases": [
+      "muji",
+      "mujirushi ryohin"
+    ],
+    "tags": [
+      "basics",
+      "japanese"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "trousers",
+      "jeans",
+      "shorts",
+      "skirt",
+      "socks",
+      "scarf",
+      "tote"
+    ]
+  },
+  {
+    "id": "comme-des-garcons",
+    "name": "Comme des Garçons / CDG Play",
+    "zh": [
+      "川久保玲",
+      "CDG",
+      "CDG PLAY",
+      "COMME des GARCONS"
+    ],
+    "aliases": [
+      "comme des garcons",
+      "comme des garçons",
+      "cdg",
+      "cdg play",
+      "comme des garcons play"
+    ],
+    "tags": [
+      "designer",
+      "japanese"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "sneakers"
+    ]
+  },
+  {
+    "id": "issey-miyake",
+    "name": "Issey Miyake",
+    "zh": [
+      "三宅一生",
+      "ISSEY MIYAKE"
+    ],
+    "aliases": [
+      "issey miyake",
+      "isseymiyake",
+      "pleats please",
+      "bao bao"
+    ],
+    "tags": [
+      "designer",
+      "japanese"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "trousers",
+      "skirt",
+      "crossbody-bag",
+      "tote"
+    ]
+  },
+  {
+    "id": "homme-plisse",
+    "name": "Homme Plissé Issey Miyake",
+    "zh": [
+      "三宅一生男装",
+      "HOMME PLISSE",
+      "HOMME PLISSÉ"
+    ],
+    "aliases": [
+      "homme plisse",
+      "homme plissé",
+      "homme plisse issey miyake",
+      "hp issey miyake"
+    ],
+    "tags": [
+      "designer",
+      "japanese"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "trousers",
+      "shorts",
+      "coat"
+    ]
+  },
+  {
+    "id": "yohji-yamamoto",
+    "name": "Yohji Yamamoto",
+    "zh": [
+      "山本耀司",
+      "YOHJI YAMAMOTO"
+    ],
+    "aliases": [
+      "yohji yamamoto",
+      "yohjiyamamoto",
+      "yohji",
+      "y-3",
+      "y3"
+    ],
+    "tags": [
+      "designer",
+      "japanese"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "tank-top",
+      "jacket",
+      "coat",
+      "blazer",
+      "trousers",
+      "skirt",
+      "boots",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "kapital",
+    "name": "Kapital",
+    "zh": [
+      "KAPITAL"
+    ],
+    "aliases": [
+      "kapital",
+      "kapital kountry"
+    ],
+    "tags": [
+      "japanese",
+      "denim",
+      "workwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "denim-jacket",
+      "work-jacket",
+      "jeans",
+      "cargo-pants",
+      "shorts",
+      "cap",
+      "scarf"
+    ]
+  },
+  {
+    "id": "visvim",
+    "name": "Visvim",
+    "zh": [
+      "visvim"
+    ],
+    "aliases": [
+      "visvim",
+      "visvim wmv"
+    ],
+    "tags": [
+      "japanese",
+      "workwear",
+      "designer"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "jacket",
+      "work-jacket",
+      "denim-jacket",
+      "jeans",
+      "trousers",
+      "boots",
+      "sneakers",
+      "backpack"
+    ]
+  },
+  {
+    "id": "neighborhood",
+    "name": "Neighborhood",
+    "zh": [
+      "NEIGHBORHOOD",
+      "NBHD"
+    ],
+    "aliases": [
+      "neighborhood",
+      "nbhd",
+      "nbh"
+    ],
+    "tags": [
+      "japanese",
+      "streetwear",
+      "workwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "work-jacket",
+      "jacket",
+      "jeans",
+      "cargo-pants",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "wtaps",
+    "name": "WTAPS",
+    "zh": [
+      "WTAPS"
+    ],
+    "aliases": [
+      "wtaps",
+      "w-taps",
+      "double taps"
+    ],
+    "tags": [
+      "japanese",
+      "streetwear",
+      "workwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "cargo-pants",
+      "trousers",
+      "shorts",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "beams",
+    "name": "Beams",
+    "zh": [
+      "BEAMS"
+    ],
+    "aliases": [
+      "beams",
+      "beams plus",
+      "beams boy"
+    ],
+    "tags": [
+      "japanese",
+      "basics",
+      "workwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweatshirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "trousers",
+      "shorts",
+      "cap",
+      "tote"
+    ]
+  },
+  {
+    "id": "needles",
+    "name": "Needles",
+    "zh": [
+      "NEEDLES"
+    ],
+    "aliases": [
+      "needles",
+      "needles nepenthes"
+    ],
+    "tags": [
+      "japanese",
+      "streetwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "track-pants",
+      "jacket",
+      "shirt",
+      "cardigan",
+      "t-shirt",
+      "shorts",
+      "sneakers",
+      "cap"
+    ]
+  },
+  {
+    "id": "sacai",
+    "name": "Sacai",
+    "zh": [
+      "sacai"
+    ],
+    "aliases": [
+      "sacai"
+    ],
+    "tags": [
+      "designer",
+      "japanese"
+    ],
+    "price_tier": 4,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "bomber",
+      "coat",
+      "trousers",
+      "skirt",
+      "sneakers"
+    ]
+  },
+  {
+    "id": "undercover",
+    "name": "Undercover",
+    "zh": [
+      "UNDERCOVER",
+      "高桥盾"
+    ],
+    "aliases": [
+      "undercover",
+      "undercoverism",
+      "jun takahashi"
+    ],
+    "tags": [
+      "designer",
+      "japanese",
+      "streetwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "jacket",
+      "bomber",
+      "jeans",
+      "trousers",
+      "sneakers",
+      "cap"
+    ]
+  },
+  {
+    "id": "auralee",
+    "name": "Auralee",
+    "zh": [
+      "AURALEE"
+    ],
+    "aliases": [
+      "auralee"
+    ],
+    "tags": [
+      "designer",
+      "japanese",
+      "basics"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "blazer",
+      "trousers",
+      "jeans",
+      "shorts"
+    ]
+  },
+  {
+    "id": "porter",
+    "name": "Porter / Yoshida & Co.",
+    "zh": [
+      "PORTER",
+      "吉田包",
+      "吉田"
+    ],
+    "aliases": [
+      "porter",
+      "porter yoshida",
+      "yoshida porter",
+      "yoshida & co"
+    ],
+    "tags": [
+      "japanese"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "backpack",
+      "crossbody-bag",
+      "tote"
+    ]
+  },
+  {
+    "id": "ader-error",
+    "name": "Ader Error",
+    "zh": [
+      "ADER ERROR",
+      "ADER"
+    ],
+    "aliases": [
+      "ader error",
+      "adererror",
+      "ader"
+    ],
+    "tags": [
+      "korean",
+      "streetwear",
+      "designer"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "sweatshirt",
+      "hoodie",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "jeans",
+      "trousers",
+      "cap",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "thisisneverthat",
+    "name": "Thisisneverthat",
+    "zh": [
+      "thisisneverthat",
+      "TNT"
+    ],
+    "aliases": [
+      "thisisneverthat",
+      "this is never that",
+      "tnt"
+    ],
+    "tags": [
+      "korean",
+      "streetwear",
+      "skate"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shirt",
+      "jacket",
+      "jeans",
+      "cargo-pants",
+      "shorts",
+      "cap",
+      "beanie",
+      "backpack"
+    ]
+  },
+  {
+    "id": "matin-kim",
+    "name": "Matin Kim",
+    "zh": [
+      "MATIN KIM"
+    ],
+    "aliases": [
+      "matin kim",
+      "matinkim"
+    ],
+    "tags": [
+      "korean",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "tank-top",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "jeans",
+      "skirt",
+      "cap",
+      "crossbody-bag",
+      "tote"
+    ]
+  },
+  {
+    "id": "andersson-bell",
+    "name": "Andersson Bell",
+    "zh": [
+      "ANDERSSON BELL"
+    ],
+    "aliases": [
+      "andersson bell",
+      "anderssonbell"
+    ],
+    "tags": [
+      "korean",
+      "designer"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "jeans",
+      "trousers",
+      "skirt",
+      "boots"
+    ]
+  },
+  {
+    "id": "mardi-mercredi",
+    "name": "Mardi Mercredi",
+    "zh": [
+      "MARDI MERCREDI"
+    ],
+    "aliases": [
+      "mardi mercredi",
+      "mardimercredi",
+      "mardi"
+    ],
+    "tags": [
+      "korean",
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "sweatshirt",
+      "hoodie",
+      "polo",
+      "sweater",
+      "cardigan",
+      "skirt",
+      "shorts",
+      "cap",
+      "tote"
+    ]
+  },
+  {
+    "id": "stand-oil",
+    "name": "Stand Oil",
+    "zh": [
+      "STAND OIL",
+      "STANDOIL"
+    ],
+    "aliases": [
+      "stand oil",
+      "standoil"
+    ],
+    "tags": [
+      "korean"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "crossbody-bag",
+      "tote",
+      "backpack"
+    ]
+  },
+  {
+    "id": "li-ning",
+    "name": "Li-Ning",
+    "zh": [
+      "李宁",
+      "LI-NING",
+      "中国李宁"
+    ],
+    "aliases": [
+      "li-ning",
+      "li ning",
+      "lining"
+    ],
+    "tags": [
+      "chinese",
+      "sportswear",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "sweatpants",
+      "shorts",
+      "track-pants",
+      "cap",
+      "socks",
+      "backpack"
+    ]
+  },
+  {
+    "id": "anta",
+    "name": "Anta",
+    "zh": [
+      "安踏",
+      "ANTA"
+    ],
+    "aliases": [
+      "anta"
+    ],
+    "tags": [
+      "chinese",
+      "sportswear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "windbreaker",
+      "puffer-jacket",
+      "shorts",
+      "track-pants",
+      "socks",
+      "backpack"
+    ]
+  },
+  {
+    "id": "xtep",
+    "name": "Xtep",
+    "zh": [
+      "特步",
+      "XTEP"
+    ],
+    "aliases": [
+      "xtep"
+    ],
+    "tags": [
+      "chinese",
+      "sportswear"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "windbreaker",
+      "shorts",
+      "track-pants",
+      "socks",
+      "cap"
+    ]
+  },
+  {
+    "id": "361-degrees",
+    "name": "361°",
+    "zh": [
+      "361度",
+      "361°",
+      "三六一度"
+    ],
+    "aliases": [
+      "361",
+      "361°",
+      "361 degrees",
+      "361degree"
+    ],
+    "tags": [
+      "chinese",
+      "sportswear"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "sneakers",
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "shorts",
+      "track-pants",
+      "windbreaker",
+      "socks",
+      "cap"
+    ]
+  },
+  {
+    "id": "bosideng",
+    "name": "Bosideng",
+    "zh": [
+      "波司登",
+      "BOSIDENG"
+    ],
+    "aliases": [
+      "bosideng"
+    ],
+    "tags": [
+      "chinese",
+      "outdoor"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "puffer-jacket",
+      "vest",
+      "shell-jacket",
+      "windbreaker",
+      "jacket"
+    ]
+  },
+  {
+    "id": "peacebird",
+    "name": "Peacebird",
+    "zh": [
+      "太平鸟",
+      "PEACEBIRD"
+    ],
+    "aliases": [
+      "peacebird",
+      "peace bird"
+    ],
+    "tags": [
+      "chinese",
+      "basics",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "coat",
+      "jeans",
+      "trousers",
+      "skirt"
+    ]
+  },
+  {
+    "id": "urban-revivo",
+    "name": "Urban Revivo",
+    "zh": [
+      "UR",
+      "URBAN REVIVO"
+    ],
+    "aliases": [
+      "urban revivo",
+      "urbanrevivo",
+      "ur"
+    ],
+    "tags": [
+      "chinese",
+      "basics"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "tank-top",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "blazer",
+      "trousers",
+      "jeans",
+      "skirt",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "roaring-wild",
+    "name": "Roaringwild",
+    "zh": [
+      "ROARINGWILD",
+      "咆哮野兽"
+    ],
+    "aliases": [
+      "roaringwild",
+      "roaring wild",
+      "rw"
+    ],
+    "tags": [
+      "chinese",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "work-jacket",
+      "trousers",
+      "cargo-pants",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "randomevent",
+    "name": "Randomevent",
+    "zh": [
+      "RANDOMEVENT"
+    ],
+    "aliases": [
+      "randomevent",
+      "random event"
+    ],
+    "tags": [
+      "chinese",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "jeans",
+      "cargo-pants",
+      "trousers",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "bosie",
+    "name": "Bosie",
+    "zh": [
+      "bosie"
+    ],
+    "aliases": [
+      "bosie"
+    ],
+    "tags": [
+      "chinese",
+      "streetwear",
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "jeans",
+      "trousers",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "13-de-marzo",
+    "name": "13De Marzo",
+    "zh": [
+      "13DE MARZO",
+      "13DEMARZO"
+    ],
+    "aliases": [
+      "13de marzo",
+      "13 de marzo",
+      "13demarzo"
+    ],
+    "tags": [
+      "designer",
+      "streetwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "jeans",
+      "shorts",
+      "cap"
+    ]
+  },
+  {
+    "id": "fengchen-wang",
+    "name": "Feng Chen Wang",
+    "zh": [
+      "FENG CHEN WANG",
+      "王逢陈"
+    ],
+    "aliases": [
+      "feng chen wang",
+      "fengchen wang",
+      "fengchenwang",
+      "fcw"
+    ],
+    "tags": [
+      "chinese",
+      "designer",
+      "streetwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "hoodie",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "coat",
+      "jeans",
+      "trousers",
+      "sneakers"
+    ]
+  },
+  {
+    "id": "levis",
+    "name": "Levi's",
+    "zh": [
+      "李维斯",
+      "LEVI'S",
+      "Levis"
+    ],
+    "aliases": [
+      "levis",
+      "levi's",
+      "levi strauss",
+      "levi strauss & co"
+    ],
+    "tags": [
+      "denim",
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "jeans",
+      "denim-jacket",
+      "t-shirt",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "shorts",
+      "belt",
+      "cap"
+    ]
+  },
+  {
+    "id": "lee",
+    "name": "Lee",
+    "zh": [
+      "LEE",
+      "李牌"
+    ],
+    "aliases": [
+      "lee",
+      "lee jeans"
+    ],
+    "tags": [
+      "denim",
+      "workwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "jeans",
+      "denim-jacket",
+      "shirt",
+      "t-shirt",
+      "hoodie",
+      "work-jacket",
+      "trousers",
+      "shorts",
+      "belt"
+    ]
+  },
+  {
+    "id": "wrangler",
+    "name": "Wrangler",
+    "zh": [
+      "Wrangler",
+      "威格"
+    ],
+    "aliases": [
+      "wrangler",
+      "wrangler jeans"
+    ],
+    "tags": [
+      "denim",
+      "workwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "jeans",
+      "denim-jacket",
+      "shirt",
+      "t-shirt",
+      "jacket",
+      "trousers",
+      "shorts",
+      "belt"
+    ]
+  },
+  {
+    "id": "dickies",
+    "name": "Dickies",
+    "zh": [
+      "Dickies",
+      "迪凯思"
+    ],
+    "aliases": [
+      "dickies"
+    ],
+    "tags": [
+      "workwear",
+      "skate",
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "work-jacket",
+      "trousers",
+      "cargo-pants",
+      "shorts",
+      "shirt",
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "cap",
+      "belt",
+      "backpack"
+    ]
+  },
+  {
+    "id": "carhartt",
+    "name": "Carhartt",
+    "zh": [
+      "卡哈特",
+      "Carhartt",
+      "CARHARTT卡哈特"
+    ],
+    "aliases": [
+      "carhartt",
+      "carhartt workwear"
+    ],
+    "tags": [
+      "workwear",
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "work-jacket",
+      "jacket",
+      "vest",
+      "shirt",
+      "t-shirt",
+      "hoodie",
+      "trousers",
+      "cargo-pants",
+      "jeans",
+      "cap",
+      "beanie"
+    ]
+  },
+  {
+    "id": "red-wing",
+    "name": "Red Wing",
+    "zh": [
+      "红翼",
+      "RED WING"
+    ],
+    "aliases": [
+      "red wing",
+      "redwing",
+      "red wing heritage"
+    ],
+    "tags": [
+      "workwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "boots",
+      "loafers",
+      "belt",
+      "socks"
+    ]
+  },
+  {
+    "id": "dr-martens",
+    "name": "Dr. Martens",
+    "zh": [
+      "马汀博士",
+      "DR. MARTENS",
+      "马丁博士"
+    ],
+    "aliases": [
+      "dr martens",
+      "dr. martens",
+      "doc martens",
+      "drmartens",
+      "docs"
+    ],
+    "tags": [
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "boots",
+      "loafers",
+      "sandals",
+      "sneakers",
+      "socks",
+      "belt"
+    ]
+  },
+  {
+    "id": "timberland",
+    "name": "Timberland",
+    "zh": [
+      "添柏岚",
+      "Timberland",
+      "踢不烂"
+    ],
+    "aliases": [
+      "timberland",
+      "timbs"
+    ],
+    "tags": [
+      "outdoor",
+      "workwear",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "boots",
+      "sneakers",
+      "jacket",
+      "work-jacket",
+      "shirt",
+      "hoodie",
+      "trousers",
+      "backpack",
+      "cap",
+      "belt"
+    ]
+  },
+  {
+    "id": "birkenstock",
+    "name": "Birkenstock",
+    "zh": [
+      "勃肯",
+      "BIRKENSTOCK"
+    ],
+    "aliases": [
+      "birkenstock",
+      "birks"
+    ],
+    "tags": [
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "sandals",
+      "loafers",
+      "socks"
+    ]
+  },
+  {
+    "id": "clarks",
+    "name": "Clarks",
+    "zh": [
+      "其乐",
+      "CLARKS"
+    ],
+    "aliases": [
+      "clarks",
+      "clarks originals"
+    ],
+    "tags": [
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "boots",
+      "loafers",
+      "sandals",
+      "sneakers"
+    ]
+  },
+  {
+    "id": "champion",
+    "name": "Champion",
+    "zh": [
+      "Champion",
+      "冠军"
+    ],
+    "aliases": [
+      "champion",
+      "champion reverse weave"
+    ],
+    "tags": [
+      "sportswear",
+      "basics",
+      "streetwear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweatpants",
+      "shorts",
+      "track-pants",
+      "cap",
+      "socks"
+    ]
+  },
+  {
+    "id": "gap",
+    "name": "Gap",
+    "zh": [
+      "GAP",
+      "盖璞"
+    ],
+    "aliases": [
+      "gap",
+      "gap denim"
+    ],
+    "tags": [
+      "basics",
+      "denim"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "polo",
+      "hoodie",
+      "sweatshirt",
+      "sweater",
+      "cardigan",
+      "denim-jacket",
+      "jeans",
+      "trousers",
+      "shorts",
+      "socks"
+    ]
+  },
+  {
+    "id": "zara",
+    "name": "Zara",
+    "zh": [
+      "ZARA"
+    ],
+    "aliases": [
+      "zara"
+    ],
+    "tags": [
+      "basics"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "polo",
+      "tank-top",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "bomber",
+      "coat",
+      "blazer",
+      "jeans",
+      "trousers",
+      "skirt",
+      "boots",
+      "loafers",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "h-and-m",
+    "name": "H&M",
+    "zh": [
+      "H&M",
+      "HM"
+    ],
+    "aliases": [
+      "h&m",
+      "h and m",
+      "hm",
+      "hennes & mauritz"
+    ],
+    "tags": [
+      "basics"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "shirt",
+      "tank-top",
+      "hoodie",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "blazer",
+      "jeans",
+      "trousers",
+      "shorts",
+      "skirt",
+      "socks"
+    ]
+  },
+  {
+    "id": "cos",
+    "name": "COS",
+    "zh": [
+      "COS"
+    ],
+    "aliases": [
+      "cos",
+      "collection of style"
+    ],
+    "tags": [
+      "basics",
+      "designer"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "polo",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "blazer",
+      "trousers",
+      "jeans",
+      "skirt",
+      "loafers",
+      "crossbody-bag",
+      "tote"
+    ]
+  },
+  {
+    "id": "arket",
+    "name": "Arket",
+    "zh": [
+      "ARKET"
+    ],
+    "aliases": [
+      "arket"
+    ],
+    "tags": [
+      "basics"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "coat",
+      "blazer",
+      "jeans",
+      "trousers",
+      "shorts",
+      "skirt",
+      "scarf",
+      "tote"
+    ]
+  },
+  {
+    "id": "lululemon",
+    "name": "Lululemon",
+    "zh": [
+      "lululemon",
+      "露露乐蒙",
+      "LULU"
+    ],
+    "aliases": [
+      "lululemon",
+      "lulu",
+      "lululemon athletica"
+    ],
+    "tags": [
+      "sportswear",
+      "basics"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "tank-top",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "windbreaker",
+      "sweatpants",
+      "shorts",
+      "track-pants",
+      "cap",
+      "crossbody-bag"
+    ]
+  },
+  {
+    "id": "alo-yoga",
+    "name": "Alo Yoga",
+    "zh": [
+      "ALO YOGA",
+      "ALO"
+    ],
+    "aliases": [
+      "alo yoga",
+      "aloyoga",
+      "alo"
+    ],
+    "tags": [
+      "sportswear",
+      "basics"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "tank-top",
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "sweatpants",
+      "shorts",
+      "track-pants",
+      "jacket",
+      "cap",
+      "socks"
+    ]
+  },
+  {
+    "id": "ralph-lauren",
+    "name": "Ralph Lauren",
+    "zh": [
+      "拉夫劳伦",
+      "RALPH LAUREN",
+      "RL"
+    ],
+    "aliases": [
+      "ralph lauren",
+      "ralphlauren",
+      "rl",
+      "rrl",
+      "double rl"
+    ],
+    "tags": [
+      "designer",
+      "basics",
+      "workwear"
+    ],
+    "price_tier": 3,
+    "categories": [
+      "polo",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "blazer",
+      "coat",
+      "jacket",
+      "jeans",
+      "trousers",
+      "loafers",
+      "belt",
+      "scarf"
+    ]
+  },
+  {
+    "id": "tommy-hilfiger",
+    "name": "Tommy Hilfiger",
+    "zh": [
+      "汤米希尔费格",
+      "TOMMY HILFIGER",
+      "TOMMY"
+    ],
+    "aliases": [
+      "tommy hilfiger",
+      "tommyhilfiger",
+      "tommy",
+      "th"
+    ],
+    "tags": [
+      "basics",
+      "sportswear"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "polo",
+      "shirt",
+      "t-shirt",
+      "sweatshirt",
+      "hoodie",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "jeans",
+      "trousers",
+      "cap",
+      "belt"
+    ]
+  },
+  {
+    "id": "calvin-klein",
+    "name": "Calvin Klein",
+    "zh": [
+      "Calvin Klein",
+      "CK",
+      "卡尔文克莱恩"
+    ],
+    "aliases": [
+      "calvin klein",
+      "calvinklein",
+      "ck",
+      "ck jeans"
+    ],
+    "tags": [
+      "basics",
+      "denim"
+    ],
+    "price_tier": 2,
+    "categories": [
+      "t-shirt",
+      "tank-top",
+      "shirt",
+      "hoodie",
+      "sweatshirt",
+      "jacket",
+      "jeans",
+      "trousers",
+      "shorts",
+      "socks",
+      "belt"
+    ]
+  },
+  {
+    "id": "shein",
+    "name": "Shein",
+    "zh": [
+      "SHEIN",
+      "希音"
+    ],
+    "aliases": [
+      "shein",
+      "sheinside"
+    ],
+    "tags": [
+      "basics"
+    ],
+    "price_tier": 1,
+    "categories": [
+      "t-shirt",
+      "tank-top",
+      "shirt",
+      "polo",
+      "hoodie",
+      "sweatshirt",
+      "sweater",
+      "cardigan",
+      "jacket",
+      "blazer",
+      "jeans",
+      "trousers",
+      "shorts",
+      "skirt",
+      "crossbody-bag"
+    ]
+  }
+]

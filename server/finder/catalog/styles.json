@@ -1,0 +1,871 @@
+[
+  {
+    "id": "gorpcore",
+    "name": "Gorpcore",
+    "zh": [
+      "山系",
+      "户外机能",
+      "户外风"
+    ],
+    "description": "Technical layers and trail shoes bring hiking comfort into everyday outfits.",
+    "categories": [
+      "shell-jacket",
+      "fleece",
+      "puffer-jacket",
+      "vest",
+      "cargo-pants",
+      "trousers",
+      "sneakers",
+      "backpack",
+      "cap",
+      "beanie"
+    ],
+    "brands": [
+      "arcteryx",
+      "the-north-face",
+      "patagonia",
+      "salomon",
+      "hoka",
+      "columbia",
+      "mammut",
+      "kailas",
+      "snow-peak",
+      "montbell",
+      "and-wander"
+    ],
+    "colors": [
+      "olive",
+      "black",
+      "khaki",
+      "grey",
+      "orange"
+    ],
+    "materials": [
+      "gore-tex",
+      "nylon",
+      "fleece",
+      "down",
+      "merino"
+    ],
+    "image_query": "gorpcore outfit men shell jacket trail sneakers"
+  },
+  {
+    "id": "techwear",
+    "name": "Techwear",
+    "zh": [
+      "机能风",
+      "城市机能",
+      "暗黑机能"
+    ],
+    "description": "Functional pockets and technical fabrics create a sharp, futuristic city outfit.",
+    "categories": [
+      "shell-jacket",
+      "windbreaker",
+      "jacket",
+      "vest",
+      "cargo-pants",
+      "trousers",
+      "sneakers",
+      "crossbody-bag",
+      "backpack"
+    ],
+    "brands": [
+      "acronym",
+      "arcteryx",
+      "cp-company",
+      "stone-island",
+      "and-wander",
+      "nanamica",
+      "nike"
+    ],
+    "colors": [
+      "black",
+      "charcoal",
+      "grey",
+      "olive"
+    ],
+    "materials": [
+      "gore-tex",
+      "nylon",
+      "polyester"
+    ],
+    "image_query": "techwear outfit men black shell jacket cargo pants"
+  },
+  {
+    "id": "streetwear",
+    "name": "Streetwear",
+    "zh": [
+      "美式街头",
+      "街头潮流",
+      "嘻哈"
+    ],
+    "description": "Graphic tees, hoodies, and sneakers make bold everyday outfits.",
+    "categories": [
+      "t-shirt",
+      "hoodie",
+      "sweatshirt",
+      "varsity-jacket",
+      "jeans",
+      "cargo-pants",
+      "sweatpants",
+      "shorts",
+      "sneakers",
+      "cap"
+    ],
+    "brands": [
+      "supreme",
+      "stussy",
+      "palace",
+      "bape",
+      "fear-of-god-essentials",
+      "represent",
+      "corteiz",
+      "kith",
+      "human-made",
+      "sp5der",
+      "trapstar",
+      "broken-planet",
+      "hellstar"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "red",
+      "blue",
+      "purple"
+    ],
+    "materials": [
+      "heavyweight-cotton",
+      "cotton",
+      "denim",
+      "fleece"
+    ],
+    "image_query": "streetwear outfit men graphic hoodie loose jeans sneakers"
+  },
+  {
+    "id": "old-money",
+    "name": "Old Money / Quiet Luxury",
+    "zh": [
+      "老钱风",
+      "静奢风",
+      "低调奢华"
+    ],
+    "description": "Soft knits, tailored trousers, and muted colors create a polished, understated look.",
+    "categories": [
+      "polo",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "blazer",
+      "coat",
+      "trousers",
+      "loafers",
+      "belt",
+      "scarf"
+    ],
+    "brands": [
+      "polo-ralph-lauren",
+      "ralph-lauren",
+      "loro-piana",
+      "brunello-cucinelli",
+      "lacoste",
+      "lemaire",
+      "cos"
+    ],
+    "colors": [
+      "off-white",
+      "khaki",
+      "navy",
+      "brown",
+      "grey",
+      "white"
+    ],
+    "materials": [
+      "cashmere",
+      "wool",
+      "merino",
+      "linen",
+      "silk",
+      "suede"
+    ],
+    "image_query": "old money quiet luxury outfit men knit polo linen trousers loafers"
+  },
+  {
+    "id": "minimalist",
+    "name": "Minimalist",
+    "zh": [
+      "极简风",
+      "简约",
+      "基础款"
+    ],
+    "description": "Simple shapes and neutral colors make everyday clothes easy to combine.",
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "coat",
+      "trousers",
+      "jeans",
+      "sneakers",
+      "tote"
+    ],
+    "brands": [
+      "cos",
+      "arket",
+      "uniqlo",
+      "muji",
+      "lemaire",
+      "auralee",
+      "acne-studios"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "off-white",
+      "grey",
+      "charcoal",
+      "navy"
+    ],
+    "materials": [
+      "cotton",
+      "wool",
+      "cashmere",
+      "linen",
+      "knit"
+    ],
+    "image_query": "minimalist neutral outfit men plain tee straight trousers"
+  },
+  {
+    "id": "japanese-workwear",
+    "name": "Japanese Workwear / Amekaji",
+    "zh": [
+      "阿美咔叽",
+      "美式复古",
+      "日系工装"
+    ],
+    "description": "Japanese workwear pairs roomy jackets with textured denim and practical details.",
+    "categories": [
+      "work-jacket",
+      "denim-jacket",
+      "shirt",
+      "long-sleeve-tee",
+      "vest",
+      "jeans",
+      "cargo-pants",
+      "boots",
+      "cap",
+      "beanie"
+    ],
+    "brands": [
+      "kapital",
+      "visvim",
+      "neighborhood",
+      "wtaps",
+      "beams",
+      "carhartt-wip",
+      "porter"
+    ],
+    "colors": [
+      "blue",
+      "navy",
+      "olive",
+      "khaki",
+      "brown",
+      "off-white"
+    ],
+    "materials": [
+      "selvedge-denim",
+      "denim",
+      "heavyweight-cotton",
+      "canvas",
+      "corduroy"
+    ],
+    "image_query": "Japanese amekaji outfit men chore jacket selvedge denim boots"
+  },
+  {
+    "id": "americana",
+    "name": "Americana / Heritage",
+    "zh": [
+      "美式复古",
+      "复古工装",
+      "西部牛仔"
+    ],
+    "description": "Rugged jeans, work boots, and worn leather draw on classic American clothing.",
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "work-jacket",
+      "denim-jacket",
+      "vest",
+      "jeans",
+      "trousers",
+      "boots",
+      "belt"
+    ],
+    "brands": [
+      "levis",
+      "lee",
+      "wrangler",
+      "dickies",
+      "carhartt",
+      "red-wing",
+      "timberland",
+      "ralph-lauren"
+    ],
+    "colors": [
+      "blue",
+      "navy",
+      "brown",
+      "khaki",
+      "off-white",
+      "burgundy"
+    ],
+    "materials": [
+      "selvedge-denim",
+      "denim",
+      "leather",
+      "suede",
+      "canvas",
+      "heavyweight-cotton"
+    ],
+    "image_query": "Americana heritage outfit men denim work boots flannel shirt"
+  },
+  {
+    "id": "y2k",
+    "name": "Y2K",
+    "zh": [
+      "Y2K",
+      "千禧风",
+      "千禧复古"
+    ],
+    "description": "Playful colors, short tops, and loose denim bring back early 2000s fashion.",
+    "categories": [
+      "t-shirt",
+      "tank-top",
+      "hoodie",
+      "bomber",
+      "jeans",
+      "cargo-pants",
+      "skirt",
+      "track-pants",
+      "sneakers",
+      "sunglasses",
+      "crossbody-bag"
+    ],
+    "brands": [
+      "miu-miu",
+      "balenciaga",
+      "adidas",
+      "nike",
+      "puma",
+      "matin-kim",
+      "zara",
+      "h-and-m"
+    ],
+    "colors": [
+      "pink",
+      "light-blue",
+      "white",
+      "black",
+      "purple",
+      "multicolor"
+    ],
+    "materials": [
+      "denim",
+      "cotton",
+      "nylon",
+      "polyester",
+      "leather"
+    ],
+    "image_query": "Y2K outfit women cropped top baggy jeans shoulder bag"
+  },
+  {
+    "id": "skater",
+    "name": "Skater",
+    "zh": [
+      "滑板风",
+      "滑板",
+      "美式街头"
+    ],
+    "description": "Loose tees, durable trousers, and skate shoes keep movement easy.",
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "hoodie",
+      "shirt",
+      "jeans",
+      "trousers",
+      "shorts",
+      "sneakers",
+      "cap",
+      "beanie",
+      "socks"
+    ],
+    "brands": [
+      "vans",
+      "converse",
+      "palace",
+      "supreme",
+      "dickies",
+      "stussy",
+      "noah",
+      "thisisneverthat"
+    ],
+    "colors": [
+      "black",
+      "white",
+      "grey",
+      "khaki",
+      "blue",
+      "green"
+    ],
+    "materials": [
+      "heavyweight-cotton",
+      "cotton",
+      "denim",
+      "canvas",
+      "corduroy"
+    ],
+    "image_query": "skater outfit men loose tee baggy pants Vans sneakers"
+  },
+  {
+    "id": "preppy",
+    "name": "Preppy",
+    "zh": [
+      "学院风",
+      "美式学院",
+      "常春藤"
+    ],
+    "description": "Polo shirts, cardigans, and loafers give everyday outfits a collegiate feel.",
+    "categories": [
+      "polo",
+      "shirt",
+      "sweater",
+      "cardigan",
+      "blazer",
+      "varsity-jacket",
+      "trousers",
+      "shorts",
+      "skirt",
+      "loafers",
+      "socks"
+    ],
+    "brands": [
+      "polo-ralph-lauren",
+      "lacoste",
+      "thom-browne",
+      "tommy-hilfiger",
+      "ami-paris",
+      "aime-leon-dore",
+      "noah"
+    ],
+    "colors": [
+      "navy",
+      "white",
+      "off-white",
+      "burgundy",
+      "green",
+      "khaki"
+    ],
+    "materials": [
+      "cotton",
+      "wool",
+      "knit",
+      "corduroy"
+    ],
+    "image_query": "preppy collegiate outfit polo cardigan chinos loafers"
+  },
+  {
+    "id": "korean-minimal",
+    "name": "Korean Minimal",
+    "zh": [
+      "韩系",
+      "韩系简约",
+      "韩版通勤"
+    ],
+    "description": "Soft colors and relaxed tailoring create an easy, polished Korean look.",
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweater",
+      "cardigan",
+      "blazer",
+      "coat",
+      "trousers",
+      "jeans",
+      "loafers",
+      "crossbody-bag"
+    ],
+    "brands": [
+      "ader-error",
+      "andersson-bell",
+      "matin-kim",
+      "stand-oil",
+      "cos",
+      "arket",
+      "uniqlo",
+      "lemaire"
+    ],
+    "colors": [
+      "off-white",
+      "grey",
+      "charcoal",
+      "black",
+      "khaki",
+      "light-blue"
+    ],
+    "materials": [
+      "cotton",
+      "wool",
+      "cashmere",
+      "knit",
+      "polyester"
+    ],
+    "image_query": "Korean minimalist outfit wide trousers knit cardigan neutral colors"
+  },
+  {
+    "id": "city-boy",
+    "name": "City Boy",
+    "zh": [
+      "日系宽松",
+      "日系休闲",
+      "cityboy",
+      "日系叠穿"
+    ],
+    "description": "Oversized shirts and roomy trousers make relaxed layers for daily city wear.",
+    "categories": [
+      "shirt",
+      "t-shirt",
+      "sweatshirt",
+      "vest",
+      "jacket",
+      "trousers",
+      "shorts",
+      "sneakers",
+      "cap",
+      "tote",
+      "crossbody-bag"
+    ],
+    "brands": [
+      "beams",
+      "nanamica",
+      "uniqlo",
+      "muji",
+      "new-balance",
+      "snow-peak",
+      "porter"
+    ],
+    "colors": [
+      "navy",
+      "blue",
+      "light-blue",
+      "off-white",
+      "khaki",
+      "olive"
+    ],
+    "materials": [
+      "cotton",
+      "heavyweight-cotton",
+      "nylon",
+      "corduroy"
+    ],
+    "image_query": "Japanese city boy outfit oversized shirt wide shorts New Balance"
+  },
+  {
+    "id": "dark-avant-garde",
+    "name": "Dark Avant-garde",
+    "zh": [
+      "暗黑风",
+      "暗黑先锋",
+      "先锋解构"
+    ],
+    "description": "Black layers, unusual shapes, and chunky boots create a dramatic silhouette.",
+    "categories": [
+      "t-shirt",
+      "tank-top",
+      "hoodie",
+      "coat",
+      "jacket",
+      "bomber",
+      "trousers",
+      "cargo-pants",
+      "shorts",
+      "boots",
+      "sneakers"
+    ],
+    "brands": [
+      "rick-owens",
+      "yohji-yamamoto",
+      "comme-des-garcons",
+      "maison-margiela",
+      "undercover"
+    ],
+    "colors": [
+      "black",
+      "charcoal",
+      "grey",
+      "off-white"
+    ],
+    "materials": [
+      "cotton",
+      "leather",
+      "wool",
+      "knit",
+      "denim"
+    ],
+    "image_query": "dark avant garde outfit men Rick Owens black layers boots"
+  },
+  {
+    "id": "athleisure",
+    "name": "Athleisure",
+    "zh": [
+      "运动休闲",
+      "运动风",
+      "健身穿搭"
+    ],
+    "description": "Sporty layers and comfortable fabrics move easily between workouts and daily life.",
+    "categories": [
+      "t-shirt",
+      "long-sleeve-tee",
+      "tank-top",
+      "hoodie",
+      "sweatshirt",
+      "windbreaker",
+      "sweatpants",
+      "track-pants",
+      "shorts",
+      "sneakers",
+      "cap",
+      "socks"
+    ],
+    "brands": [
+      "lululemon",
+      "alo-yoga",
+      "nike",
+      "adidas",
+      "new-balance",
+      "on",
+      "hoka",
+      "li-ning",
+      "anta"
+    ],
+    "colors": [
+      "black",
+      "grey",
+      "white",
+      "navy",
+      "pink",
+      "green"
+    ],
+    "materials": [
+      "polyester",
+      "nylon",
+      "cotton",
+      "fleece"
+    ],
+    "image_query": "athleisure outfit women joggers tank top running sneakers"
+  },
+  {
+    "id": "vintage-90s",
+    "name": "Vintage / 90s",
+    "zh": [
+      "复古",
+      "90年代",
+      "美式复古",
+      "水洗做旧"
+    ],
+    "description": "Faded denim, washed tees, and retro sneakers recall casual outfits from the 1990s.",
+    "categories": [
+      "t-shirt",
+      "sweatshirt",
+      "hoodie",
+      "shirt",
+      "denim-jacket",
+      "bomber",
+      "varsity-jacket",
+      "jeans",
+      "track-pants",
+      "sneakers",
+      "cap"
+    ],
+    "brands": [
+      "levis",
+      "lee",
+      "wrangler",
+      "champion",
+      "gap",
+      "nike",
+      "adidas"
+    ],
+    "colors": [
+      "blue",
+      "light-blue",
+      "off-white",
+      "grey",
+      "burgundy",
+      "yellow",
+      "multicolor"
+    ],
+    "materials": [
+      "denim",
+      "heavyweight-cotton",
+      "cotton",
+      "corduroy",
+      "nylon"
+    ],
+    "image_query": "1990s vintage outfit men washed jeans graphic tee retro sneakers"
+  },
+  {
+    "id": "smart-casual",
+    "name": "Smart Casual",
+    "zh": [
+      "商务休闲",
+      "通勤",
+      "休闲西装"
+    ],
+    "description": "Relaxed tailoring and simple layers balance office polish with everyday comfort.",
+    "categories": [
+      "shirt",
+      "polo",
+      "sweater",
+      "cardigan",
+      "blazer",
+      "coat",
+      "trousers",
+      "skirt",
+      "loafers",
+      "boots",
+      "belt",
+      "crossbody-bag"
+    ],
+    "brands": [
+      "cos",
+      "arket",
+      "polo-ralph-lauren",
+      "lacoste",
+      "ami-paris",
+      "our-legacy",
+      "tommy-hilfiger",
+      "clarks"
+    ],
+    "colors": [
+      "navy",
+      "charcoal",
+      "grey",
+      "white",
+      "off-white",
+      "khaki",
+      "brown"
+    ],
+    "materials": [
+      "cotton",
+      "wool",
+      "linen",
+      "merino",
+      "leather"
+    ],
+    "image_query": "smart casual outfit men relaxed blazer chinos loafers"
+  },
+  {
+    "id": "outdoor-utility",
+    "name": "Outdoor Utility",
+    "zh": [
+      "户外工装",
+      "多口袋",
+      "机能工装"
+    ],
+    "description": "Cargo pockets, tough fabrics, and practical layers suit everyday adventures.",
+    "categories": [
+      "work-jacket",
+      "vest",
+      "windbreaker",
+      "shell-jacket",
+      "shirt",
+      "cargo-pants",
+      "shorts",
+      "boots",
+      "sneakers",
+      "backpack",
+      "cap",
+      "crossbody-bag"
+    ],
+    "brands": [
+      "snow-peak",
+      "and-wander",
+      "carhartt-wip",
+      "dickies",
+      "columbia",
+      "kailas",
+      "outdoor-research",
+      "decathlon",
+      "timberland"
+    ],
+    "colors": [
+      "olive",
+      "khaki",
+      "brown",
+      "black",
+      "orange"
+    ],
+    "materials": [
+      "nylon",
+      "canvas",
+      "cotton",
+      "polyester",
+      "gore-tex"
+    ],
+    "image_query": "outdoor utility outfit men cargo pants pocket vest hiking boots"
+  },
+  {
+    "id": "cleanfit",
+    "name": "Cleanfit",
+    "zh": [
+      "cleanfit",
+      "干净穿搭",
+      "简约百搭"
+    ],
+    "description": "Plain tees, straight trousers, and neat sneakers create a fresh, tidy look.",
+    "categories": [
+      "t-shirt",
+      "shirt",
+      "sweatshirt",
+      "sweater",
+      "jacket",
+      "jeans",
+      "trousers",
+      "sneakers",
+      "loafers",
+      "cap",
+      "tote"
+    ],
+    "brands": [
+      "uniqlo",
+      "cos",
+      "arket",
+      "new-balance",
+      "adidas",
+      "fear-of-god-essentials",
+      "aime-leon-dore",
+      "ami-paris"
+    ],
+    "colors": [
+      "white",
+      "off-white",
+      "light-blue",
+      "grey",
+      "navy",
+      "khaki"
+    ],
+    "materials": [
+      "cotton",
+      "heavyweight-cotton",
+      "denim",
+      "knit",
+      "wool"
+    ],
+    "image_query": "cleanfit outfit men plain white tee straight jeans clean sneakers"
+  }
+]

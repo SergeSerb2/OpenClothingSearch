@@ -1,0 +1,248 @@
+[
+  {
+    "id": "t-shirt",
+    "name": "T-shirt",
+    "zh": "T恤",
+    "group": "tops"
+  },
+  {
+    "id": "long-sleeve-tee",
+    "name": "Long-sleeve tee",
+    "zh": "长袖T恤",
+    "group": "tops"
+  },
+  {
+    "id": "shirt",
+    "name": "Shirt",
+    "zh": "衬衫",
+    "group": "tops"
+  },
+  {
+    "id": "polo",
+    "name": "Polo",
+    "zh": "POLO衫",
+    "group": "tops"
+  },
+  {
+    "id": "hoodie",
+    "name": "Hoodie",
+    "zh": "连帽卫衣",
+    "group": "tops"
+  },
+  {
+    "id": "sweatshirt",
+    "name": "Crewneck sweatshirt",
+    "zh": "圆领卫衣",
+    "group": "tops"
+  },
+  {
+    "id": "sweater",
+    "name": "Sweater / Knit",
+    "zh": "毛衣",
+    "group": "tops"
+  },
+  {
+    "id": "cardigan",
+    "name": "Cardigan",
+    "zh": "针织开衫",
+    "group": "tops"
+  },
+  {
+    "id": "vest",
+    "name": "Vest / Gilet",
+    "zh": "马甲",
+    "group": "tops"
+  },
+  {
+    "id": "tank-top",
+    "name": "Tank top",
+    "zh": "背心",
+    "group": "tops"
+  },
+  {
+    "id": "jacket",
+    "name": "Jacket",
+    "zh": "夹克",
+    "group": "outerwear"
+  },
+  {
+    "id": "shell-jacket",
+    "name": "Hardshell jacket",
+    "zh": "冲锋衣",
+    "group": "outerwear"
+  },
+  {
+    "id": "windbreaker",
+    "name": "Windbreaker",
+    "zh": "防风外套",
+    "group": "outerwear"
+  },
+  {
+    "id": "puffer-jacket",
+    "name": "Puffer / Down jacket",
+    "zh": "羽绒服",
+    "group": "outerwear"
+  },
+  {
+    "id": "fleece",
+    "name": "Fleece jacket",
+    "zh": "抓绒衣",
+    "group": "outerwear"
+  },
+  {
+    "id": "bomber",
+    "name": "Bomber jacket",
+    "zh": "飞行员夹克",
+    "group": "outerwear"
+  },
+  {
+    "id": "denim-jacket",
+    "name": "Denim jacket",
+    "zh": "牛仔外套",
+    "group": "outerwear"
+  },
+  {
+    "id": "coat",
+    "name": "Wool overcoat",
+    "zh": "毛呢大衣",
+    "group": "outerwear"
+  },
+  {
+    "id": "blazer",
+    "name": "Blazer",
+    "zh": "西装外套",
+    "group": "outerwear"
+  },
+  {
+    "id": "varsity-jacket",
+    "name": "Varsity jacket",
+    "zh": "棒球服",
+    "group": "outerwear"
+  },
+  {
+    "id": "work-jacket",
+    "name": "Work / Chore jacket",
+    "zh": "工装夹克",
+    "group": "outerwear"
+  },
+  {
+    "id": "jeans",
+    "name": "Jeans",
+    "zh": "牛仔裤",
+    "group": "bottoms"
+  },
+  {
+    "id": "trousers",
+    "name": "Trousers / Chinos",
+    "zh": "休闲裤",
+    "group": "bottoms"
+  },
+  {
+    "id": "cargo-pants",
+    "name": "Cargo pants",
+    "zh": "工装裤",
+    "group": "bottoms"
+  },
+  {
+    "id": "sweatpants",
+    "name": "Sweatpants / Joggers",
+    "zh": "卫裤",
+    "group": "bottoms"
+  },
+  {
+    "id": "shorts",
+    "name": "Shorts",
+    "zh": "短裤",
+    "group": "bottoms"
+  },
+  {
+    "id": "skirt",
+    "name": "Skirt",
+    "zh": "半身裙",
+    "group": "bottoms"
+  },
+  {
+    "id": "track-pants",
+    "name": "Track pants",
+    "zh": "运动长裤",
+    "group": "bottoms"
+  },
+  {
+    "id": "sneakers",
+    "name": "Sneakers",
+    "zh": "运动鞋",
+    "group": "shoes"
+  },
+  {
+    "id": "boots",
+    "name": "Boots",
+    "zh": "靴子",
+    "group": "shoes"
+  },
+  {
+    "id": "sandals",
+    "name": "Sandals / Slides",
+    "zh": "凉拖",
+    "group": "shoes"
+  },
+  {
+    "id": "loafers",
+    "name": "Loafers / Dress shoes",
+    "zh": "皮鞋",
+    "group": "shoes"
+  },
+  {
+    "id": "backpack",
+    "name": "Backpack",
+    "zh": "双肩包",
+    "group": "bags"
+  },
+  {
+    "id": "crossbody-bag",
+    "name": "Shoulder / Crossbody bag",
+    "zh": "斜挎包",
+    "group": "bags"
+  },
+  {
+    "id": "tote",
+    "name": "Tote bag",
+    "zh": "托特包",
+    "group": "bags"
+  },
+  {
+    "id": "cap",
+    "name": "Cap",
+    "zh": "棒球帽",
+    "group": "accessories"
+  },
+  {
+    "id": "beanie",
+    "name": "Beanie",
+    "zh": "针织帽",
+    "group": "accessories"
+  },
+  {
+    "id": "belt",
+    "name": "Belt",
+    "zh": "腰带",
+    "group": "accessories"
+  },
+  {
+    "id": "socks",
+    "name": "Socks",
+    "zh": "袜子",
+    "group": "accessories"
+  },
+  {
+    "id": "scarf",
+    "name": "Scarf",
+    "zh": "围巾",
+    "group": "accessories"
+  },
+  {
+    "id": "sunglasses",
+    "name": "Sunglasses",
+    "zh": "墨镜",
+    "group": "accessories"
+  }
+]

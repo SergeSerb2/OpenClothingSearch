@@ -1,0 +1,52 @@
+[
+  {
+    "id": "oversized",
+    "name": "Oversized",
+    "zh": "宽松"
+  },
+  {
+    "id": "boxy",
+    "name": "Boxy",
+    "zh": "短宽版型"
+  },
+  {
+    "id": "regular",
+    "name": "Regular",
+    "zh": "常规版型"
+  },
+  {
+    "id": "slim",
+    "name": "Slim",
+    "zh": "修身"
+  },
+  {
+    "id": "relaxed",
+    "name": "Relaxed",
+    "zh": "宽松休闲"
+  },
+  {
+    "id": "cropped",
+    "name": "Cropped",
+    "zh": "短款"
+  },
+  {
+    "id": "wide-leg",
+    "name": "Wide-leg",
+    "zh": "阔腿"
+  },
+  {
+    "id": "straight",
+    "name": "Straight",
+    "zh": "直筒"
+  },
+  {
+    "id": "tapered",
+    "name": "Tapered",
+    "zh": "锥形"
+  },
+  {
+    "id": "longline",
+    "name": "Longline",
+    "zh": "加长款"
+  }
+]

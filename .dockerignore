@@ -1,0 +1,10 @@
+.env
+.env.*
+data/
+.git/
+**/node_modules/
+web/dist/
+**/.venv/
+**/__pycache__/
+docs/
+*.png
