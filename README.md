@@ -194,8 +194,10 @@ fly secrets set FINDER_PASSWORD=... LLM_PROVIDER=gemini LLM_API_KEY=... LLM_MODE
 fly deploy
 ```
 
-`fly.toml` sets `FINDER_AUTH=all`, so the server always asks for the password. It needs
-about 4 GB of memory and sleeps when nobody uses it.
+`fly.toml` sets `FINDER_AUTH=all`, so the server always asks for the password. It uses a
+`performance-2x` machine (2 dedicated cores, 4 GB): on shared CPUs, Fly limits the CPU time
+and a search takes about an hour. Fly bills only while the machine runs, and it stops
+when nobody uses it (about $0.09 an hour of use).
 
 ## Privacy and security
 
