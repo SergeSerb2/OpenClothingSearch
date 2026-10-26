@@ -87,6 +87,9 @@ class Settings:
         # hidden browsers, so minimized is the default.
         mode = get("BROWSER_MODE", "visible" if get("BROWSER_HEADFUL") == "1" else "minimized").lower()
         self.browser_mode = mode if mode in ("minimized", "visible", "hidden") else "minimized"
+        # Close the browser after this many idle minutes; it restarts when needed. 0 keeps it open.
+        idle = get("FINDER_BROWSER_IDLE_MINUTES", "5").strip()
+        self.browser_idle_minutes = 0.0 if idle == "0" else _number(idle, 5)
         self.host = get("FINDER_HOST", "127.0.0.1")
         # Extra host names the app answers to, for example a LAN name when FINDER_HOST=0.0.0.0.
         self.allowed_hosts = {h.strip().lower() for h in get("FINDER_ALLOWED_HOSTS").split(",") if h.strip()}
