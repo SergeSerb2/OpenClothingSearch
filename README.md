@@ -1,11 +1,11 @@
 <img src="assets/icon.svg" width="64" height="64" alt="">
 
-# OpenSearch
+# OpenClothingSearch
 
-Find a product on Chinese marketplaces by name, by photo, or both. The app searches
-**Taobao (and Tmall), 1688, Weidian and Yupoo**. It ranks every listing by how much its
-photo looks like the item, and it groups the same product from different sellers.
-Chinese titles show in English.
+Find clothes, shoes and other products on Chinese marketplaces by name, by photo, or
+both. The app searches **Taobao (and Tmall), 1688, Weidian and Yupoo**. It ranks every
+listing by how much its photo looks like the item, and it groups the same product from
+different sellers. Chinese titles show in English.
 
 It runs on your own computer, with the AI provider of your choice.
 
@@ -35,8 +35,8 @@ You need:
 - [Google Chrome](https://www.google.com/chrome/) (for Taobao and 1688)
 
 ```sh
-git clone https://github.com/SergeSerb2/OpenSearch.git
-cd OpenSearch
+git clone https://github.com/SergeSerb2/OpenClothingSearch.git
+cd OpenClothingSearch
 scripts/start.sh
 ```
 

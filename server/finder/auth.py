@@ -127,7 +127,7 @@ def login_page(next_path: str, error: str = "", status: int = 200) -> HTMLRespon
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
-<title>Log in · OpenSearch</title>
+<title>Log in · OpenClothingSearch</title>
 <link rel="icon" href="/icon.svg">
 <style>
   :root {{ color-scheme: light dark; font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; }}
@@ -143,7 +143,7 @@ def login_page(next_path: str, error: str = "", status: int = 200) -> HTMLRespon
 </head>
 <body>
 <form method="post" action="/login">
-  <h1><img src="/icon.svg" width="28" height="28" alt="">OpenSearch</h1>
+  <h1><img src="/icon.svg" width="28" height="28" alt="">OpenClothingSearch</h1>
   <p>Enter the password to use this finder.</p>
   {message}
   <input type="password" name="password" aria-label="Password" placeholder="Password" autocomplete="current-password" autofocus required>

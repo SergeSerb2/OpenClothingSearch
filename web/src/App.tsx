@@ -281,12 +281,12 @@ export function App() {
     const b = route.kind === "board" ? boards.find((x) => x.id === route.id) : undefined;
     document.title =
       route.kind === "search" && snapshot
-        ? `${searchTitle} · OpenSearch`
+        ? `${searchTitle} · OpenClothingSearch`
         : b
-          ? `${b.title} · OpenSearch`
+          ? `${b.title} · OpenClothingSearch`
           : route.kind === "look"
-            ? "Shop the look · OpenSearch"
-            : "OpenSearch";
+            ? "Shop the look · OpenClothingSearch"
+            : "OpenClothingSearch";
   }, [route, snapshot, searchTitle, boards]);
 
   // ---- AI stylist ----
@@ -481,7 +481,7 @@ export function App() {
               }}
             >
               <img src="/icon.svg" alt="" width={22} height={22} />
-              <span>OpenSearch</span>
+              <span>OpenClothingSearch</span>
             </a>
             <SearchBar
               ref={inputRef}

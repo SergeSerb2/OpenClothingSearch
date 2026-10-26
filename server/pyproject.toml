@@ -1,5 +1,5 @@
 [project]
-name = "opensearch"
+name = "openclothingsearch"
 version = "0.1.0"
 description = "Find an item across Taobao, 1688, Weidian and Yupoo by image similarity"
 license = "MIT"

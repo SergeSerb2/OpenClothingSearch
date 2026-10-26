@@ -616,7 +616,7 @@ wheels = [
 ]
 
 [[package]]
-name = "opensearch"
+name = "openclothingsearch"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
