@@ -12,6 +12,7 @@ import asyncio
 import logging
 import os
 import sys
+import time
 from contextlib import asynccontextmanager
 
 from fastapi import HTTPException
@@ -49,6 +50,9 @@ class BrowserManager:
         self._login_lock = asyncio.Lock()
         self._pages = asyncio.Semaphore(PAGES)
         self.login_site: str | None = None
+        self._active = 0  # tabs in use
+        self._last_used = time.monotonic()
+        self._idle_task: asyncio.Task | None = None
 
     async def _launch(self, mode: str, *, interactive: bool = False) -> BrowserContext:
         """mode: "minimized", "visible" or "hidden" (see Settings.browser_mode)."""
@@ -101,7 +105,44 @@ class BrowserManager:
         ctx.on("close", lambda _: self._context_closed(ctx))
         for page in ctx.pages:
             await self._minimize(ctx, page)
+        self._watch_idle()
         return ctx
+
+    def _watch_idle(self) -> None:
+        if settings.browser_idle_minutes > 0 and (self._idle_task is None or self._idle_task.done()):
+            self._idle_task = asyncio.create_task(self._close_when_idle())
+
+    def _idle(self, limit: float) -> bool:
+        return (
+            self._ctx is not None
+            and not self._active
+            and self.login_site is None
+            and time.monotonic() - self._last_used >= limit
+        )
+
+    async def _close_when_idle(self) -> None:
+        """Close Chrome after a quiet period. The next search or status check starts it again.
+
+        A running Chrome keeps calling Google services in the background. Hosts that put
+        idle apps to sleep (for example Railway) count that traffic, so the app never sleeps.
+        """
+        limit = settings.browser_idle_minutes * 60
+        while True:
+            await asyncio.sleep(min(30.0, limit))
+            if not self._idle(limit):
+                continue
+            # Close while holding the lock, like _relaunch(): a request that arrives meanwhile
+            # waits instead of starting a second Chrome on the still-locked profile.
+            async with self._lock:
+                if not self._idle(limit):
+                    continue
+                ctx, self._ctx = self._ctx, None
+                self._mode = ""
+                log.info("closing the browser after %g idle minutes", settings.browser_idle_minutes)
+                try:
+                    await ctx.close()
+                except Exception:  # noqa: BLE001 - it may already be gone
+                    pass
 
     def _context_closed(self, ctx: BrowserContext) -> None:
         if self._ctx is ctx:
@@ -122,6 +163,7 @@ class BrowserManager:
 
     async def context(self) -> BrowserContext:
         async with self._lock:
+            self._last_used = time.monotonic()
             if self._ctx is None:
                 self._ctx = await self._launch(settings.browser_mode)
             return self._ctx
@@ -131,12 +173,17 @@ class BrowserManager:
         """A fresh tab in the shared profile. Closed on exit."""
         async with self._pages:
             ctx = await self.context()
-            page: Page = await ctx.new_page()
+            self._active += 1  # no await since context(): the idle closer cannot run in between
             try:
-                await self._minimize(ctx, page)  # a new tab can bring the window back
-                yield page
+                page: Page = await ctx.new_page()
+                try:
+                    await self._minimize(ctx, page)  # a new tab can bring the window back
+                    yield page
+                finally:
+                    await page.close()
             finally:
-                await page.close()
+                self._active -= 1
+                self._last_used = time.monotonic()
 
     async def _restart(self, mode: str, *, interactive: bool = False) -> BrowserContext:
         # Let running search tabs finish (up to 30 s) and keep new ones out while restarting.
@@ -198,6 +245,9 @@ class BrowserManager:
         return status
 
     async def close(self) -> None:
+        if self._idle_task is not None:
+            self._idle_task.cancel()
+            self._idle_task = None
         ctx, self._ctx = self._ctx, None
         self.login_site = None
         if ctx is not None:

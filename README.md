@@ -151,6 +151,7 @@ variable in your shell.
 | `FINDER_SESSION_SECRET` | random, in `data/` | Signs logins. Set the same value on the app and the gate. |
 | `FINDER_UPSTREAM` | none | Gate only: the app's private address, for example `http://your-app-name.flycast`. |
 | `BROWSER_MODE` | `minimized` | `minimized`, `visible` or `hidden`. Taobao blocks `hidden`. |
+| `FINDER_BROWSER_IDLE_MINUTES` | `5` | Closes the browser after this many idle minutes; the next search restarts it. `0` keeps it open. An open browser keeps a sleeping host awake. |
 | `EMBED_MODEL` | Marqo e-commerce B | The open_clip image model. |
 
 ## Platforms
