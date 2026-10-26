@@ -93,6 +93,8 @@ class Settings:
         # Password for remote access. FINDER_AUTH=all also asks on 127.0.0.1 (for cloud hosts).
         self.password = get("FINDER_PASSWORD")
         self.auth_mode = get("FINDER_AUTH", "remote").lower()
+        # Signs login cookies. Set the same value on the app and its gate (see gate.py).
+        self.session_secret = get("FINDER_SESSION_SECRET")
         self.port = int(_number(get("FINDER_PORT"), 8790))
 
     def from_environment(self, name: str) -> bool:

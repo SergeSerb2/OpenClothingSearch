@@ -1,0 +1,22 @@
+# The login gate (server/finder/gate.py). It is the only public part of the deployment:
+# the app has only a private address, so bots cannot start its large machine.
+# Replace your-app-name (twice), then see "Remote access" in README.md.
+app = "your-app-name-gate"
+primary_region = "sjc"
+
+[build]
+  dockerfile = "Dockerfile.gate"
+
+[env]
+  FINDER_UPSTREAM = "http://your-app-name.flycast"   # the app's private address
+
+[http_service]
+  internal_port = 8080
+  force_https = true
+  auto_stop_machines = "suspend"            # sleeps when nobody uses it, wakes in about a second
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  size = "shared-cpu-1x"
+  memory = "256mb"

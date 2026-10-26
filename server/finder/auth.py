@@ -8,6 +8,7 @@ Requests to 127.0.0.1/localhost on this computer stay open, unless FINDER_AUTH=a
 
 from __future__ import annotations
 
+import asyncio
 import hashlib
 import hmac
 import html
@@ -17,7 +18,7 @@ from contextvars import ContextVar
 from http.cookies import SimpleCookie
 from urllib.parse import quote, urlsplit
 
-from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse
+from starlette.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
 
 from .config import DATA_DIR, settings
 
@@ -35,7 +36,12 @@ in_session: ContextVar[bool] = ContextVar("in_session", default=False)
 
 
 def _server_key() -> bytes:
-    """A random key kept in data/, so sessions survive restarts but cannot be forged."""
+    """A random key kept in data/, so sessions survive restarts but cannot be forged.
+
+    FINDER_SESSION_SECRET replaces it, so a gate (gate.py) and the app accept the same cookie.
+    """
+    if settings.session_secret:
+        return settings.session_secret.encode()
     try:
         key = KEY_FILE.read_bytes()
         if len(key) >= 32:
@@ -166,6 +172,24 @@ def login_response(scope, next_path: str) -> RedirectResponse:
         samesite="lax",
         path="/",
     )
+    return resp
+
+
+async def submit(scope, headers: dict[str, str], password: str, next_path: str) -> Response:
+    """Check a password from the login form: a session cookie, or the form again."""
+    client = client_id(scope, headers)
+    if locked(client):
+        return login_page(next_path, "Too many wrong passwords. Wait 10 minutes and try again.", 429)
+    if not password_ok(password):
+        failed(client)
+        await asyncio.sleep(0.6)  # slows down guessing
+        return login_page(next_path, "Wrong password.", 401)
+    return login_response(scope, next_path)
+
+
+def logout_response() -> JSONResponse:
+    resp = JSONResponse({"ok": True})
+    resp.delete_cookie(COOKIE, path="/")
     return resp
 
 

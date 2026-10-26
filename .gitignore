@@ -8,4 +8,4 @@ __pycache__/
 .DS_Store
 .env.*.tmp
 *.tmp
-fly.local.toml
+*.local.toml

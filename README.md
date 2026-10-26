@@ -148,6 +148,8 @@ variable in your shell.
 | `FINDER_PASSWORD` | none | Password for remote access (see [Remote access](#remote-access)). |
 | `FINDER_AUTH` | `remote` | `all` also asks for the password on `127.0.0.1` (for servers). |
 | `FINDER_ALLOWED_HOSTS` | none | Extra host names the app answers to, comma-separated. |
+| `FINDER_SESSION_SECRET` | random, in `data/` | Signs logins. Set the same value on the app and the gate. |
+| `FINDER_UPSTREAM` | none | Gate only: the app's private address, for example `http://your-app-name.flycast`. |
 | `BROWSER_MODE` | `minimized` | `minimized`, `visible` or `hidden`. Taobao blocks `hidden`. |
 | `EMBED_MODEL` | Marqo e-commerce B | The open_clip image model. |
 
@@ -183,21 +185,35 @@ cloudflared tunnel route dns finder finder.example.com
 cloudflared tunnel run --url http://127.0.0.1:8790 finder
 ```
 
-**On a server** (always on). The `Dockerfile` and `fly.toml` deploy to [Fly.io](https://fly.io).
+**On a server** (always on). The files deploy to [Fly.io](https://fly.io) as two apps:
+
+- **The app** (`Dockerfile`, `fly.toml`) runs on a `performance-2x` machine (2 dedicated
+  cores, 4 GB). On shared CPUs, Fly limits the CPU time and a search takes about an hour.
+  It costs about $0.09 an hour while it runs, and it stops when nobody uses it.
+- **The gate** (`Dockerfile.gate`, `fly.gate.toml`) is a small machine that shows the login
+  page and checks the password. The app has only a private address, so only the gate can
+  start it, after a correct login. Bots and scanners cannot start the large machine.
+
 The server has no screen, so Taobao and 1688 site search mostly hit slider checks there;
-the other sources work. In `fly.toml`, replace `your-app-name` with your own app name, then:
+the other sources work. In `fly.toml` and `fly.gate.toml`, replace `your-app-name` with
+your own app name, then:
 
 ```sh
 fly apps create your-app-name
-fly volumes create finder_data --size 3
-fly secrets set FINDER_PASSWORD=... LLM_PROVIDER=gemini LLM_API_KEY=... LLM_MODEL=gemini-flash-latest
-fly deploy
+fly apps create your-app-name-gate
+fly volumes create finder_data --size 3 -a your-app-name
+fly ips allocate-v6 --private -a your-app-name
+secret=$(openssl rand -hex 32)   # the gate and the app share it to accept the same login
+fly secrets set -a your-app-name FINDER_PASSWORD=... FINDER_SESSION_SECRET=$secret \
+  LLM_PROVIDER=gemini LLM_API_KEY=... LLM_MODEL=gemini-flash-latest
+fly secrets set -a your-app-name-gate FINDER_PASSWORD=... FINDER_SESSION_SECRET=$secret
+fly deploy --no-public-ips
+fly deploy -c fly.gate.toml
 ```
 
-`fly.toml` sets `FINDER_AUTH=all`, so the server always asks for the password. It uses a
-`performance-2x` machine (2 dedicated cores, 4 GB): on shared CPUs, Fly limits the CPU time
-and a search takes about an hour. Fly bills only while the machine runs, and it stops
-when nobody uses it (about $0.09 an hour of use).
+Open `https://your-app-name-gate.fly.dev`. For your own domain, run
+`fly certs add finder.example.com -a your-app-name-gate` and add the domain to
+`FINDER_ALLOWED_HOSTS` in `fly.toml`.
 
 ## Privacy and security
 

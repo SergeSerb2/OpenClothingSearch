@@ -1,5 +1,6 @@
-# Fly.io deployment. Replace your-app-name (twice) with your own app name, then see
-# "Remote access" in README.md for the volume and secrets.
+# Fly.io deployment of the app. It gets only a private address (Flycast); the login gate
+# in fly.gate.toml is the public part. Replace your-app-name (twice), then see
+# "Remote access" in README.md.
 app = "your-app-name"
 primary_region = "sjc"
 
@@ -8,7 +9,7 @@ primary_region = "sjc"
 
 [env]
   FINDER_AUTH = "all"                       # always ask for FINDER_PASSWORD (set as a secret)
-  FINDER_ALLOWED_HOSTS = "your-app-name.fly.dev"   # add your own domain, comma-separated
+  FINDER_ALLOWED_HOSTS = "your-app-name-gate.fly.dev"   # the gate's host names, comma-separated
   FINDER_ENV_FILE = "/app/data/.env"        # settings saved in the app survive restarts
   FORWARDED_ALLOW_IPS = "*"                 # trust Fly's proxy for https and client IPs
 
@@ -18,8 +19,8 @@ primary_region = "sjc"
 
 [http_service]
   internal_port = 8080
-  force_https = true
-  auto_stop_machines = "stop"               # sleeps when nobody uses it
+  force_https = false                       # private: the gate handles https
+  auto_stop_machines = "stop"               # sleeps when nobody uses it; only the gate can wake it
   auto_start_machines = true
   min_machines_running = 0
 

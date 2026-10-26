@@ -10,7 +10,7 @@ from typing import Annotated, Literal
 from urllib.parse import urlsplit
 
 from fastapi import FastAPI, File, Form, HTTPException, Request, UploadFile
-from fastapi.responses import FileResponse, JSONResponse, PlainTextResponse, RedirectResponse, Response
+from fastapi.responses import FileResponse, PlainTextResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, StringConstraints
 from sse_starlette.sse import EventSourceResponse
@@ -222,21 +222,12 @@ async def login_submit(request: Request, password: str = Form(""), next: str = F
     if not settings.password:
         return RedirectResponse("/", status_code=303)
     headers = {k.lower(): v for k, v in request.headers.items()}
-    client = auth.client_id(request.scope, headers)
-    if auth.locked(client):
-        return auth.login_page(next, "Too many wrong passwords. Wait 10 minutes and try again.", 429)
-    if not auth.password_ok(password):
-        auth.failed(client)
-        await asyncio.sleep(0.6)  # slows down guessing
-        return auth.login_page(next, "Wrong password.", 401)
-    return auth.login_response(request.scope, next)
+    return await auth.submit(request.scope, headers, password, next)
 
 
 @app.post("/api/auth/logout")
 async def logout():
-    resp = JSONResponse({"ok": True})
-    resp.delete_cookie(auth.COOKIE, path="/")
-    return resp
+    return auth.logout_response()
 
 
 @app.get("/api/status")

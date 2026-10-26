@@ -14,6 +14,10 @@ The app has no login, so the server only takes requests from its own pages:
   `401` and pages redirect to `/login?next=...`. `GET /login` shows the form, `POST /login`
   (form fields `password`, `next`) sets the cookie (30 days), `POST /api/auth/logout`
   clears it. `Status.auth` is true when the request needed the password.
+- In a cloud deployment, the gate (`python -m finder.gate`) answers `/login`,
+  `/api/auth/logout` and the icon itself, and forwards other requests to
+  `FINDER_UPSTREAM` only with a valid cookie. While the app machine starts, `GET` requests
+  wait up to 60 s; other requests get `503`.
 
 ## Types
 
