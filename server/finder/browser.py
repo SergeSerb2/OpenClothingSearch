@@ -131,16 +131,18 @@ class BrowserManager:
             await asyncio.sleep(min(30.0, limit))
             if not self._idle(limit):
                 continue
+            # Close while holding the lock, like _relaunch(): a request that arrives meanwhile
+            # waits instead of starting a second Chrome on the still-locked profile.
             async with self._lock:
                 if not self._idle(limit):
                     continue
                 ctx, self._ctx = self._ctx, None
                 self._mode = ""
-            log.info("closing the browser after %g idle minutes", settings.browser_idle_minutes)
-            try:
-                await ctx.close()
-            except Exception:  # noqa: BLE001 - it may already be gone
-                pass
+                log.info("closing the browser after %g idle minutes", settings.browser_idle_minutes)
+                try:
+                    await ctx.close()
+                except Exception:  # noqa: BLE001 - it may already be gone
+                    pass
 
     def _context_closed(self, ctx: BrowserContext) -> None:
         if self._ctx is ctx:
